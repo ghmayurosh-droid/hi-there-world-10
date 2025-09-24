@@ -26,7 +26,7 @@ const Header = () => {
             <img 
               src={logoMain} 
               alt="Bollywood Paathshaala by Shahid Hasan" 
-              className="h-19 w-auto"
+              className="h-16 w-auto"
             />
           </Link>
 
