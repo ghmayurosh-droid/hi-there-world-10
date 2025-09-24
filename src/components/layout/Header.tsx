@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-import logoMain from "@/assets/BP1.png";
+import logoMain from "@/assets/BP2.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -26,7 +26,7 @@ const Header = () => {
             <img 
               src={logoMain} 
               alt="Bollywood Paathshaala by Shahid Hasan" 
-              className="h-46 w-46"
+              className="h-36 w-auto"
             />
           </Link>
 
