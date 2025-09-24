@@ -1,6 +1,6 @@
 import { Facebook, Instagram, Youtube, Mail, Phone, MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
-import logoBP from "@/assets/bollywood-logo-bp.png";
+import logoBP from "@/assets/BP2.png";
 
 const Footer = () => {
   return (
