@@ -110,8 +110,8 @@ const About = () => {
             </div>
             <div className="bg-gradient-to-br from-primary/20 to-accent/20 rounded-lg p-8 text-center">
               <img 
-                src={shahidImg} 
-                alt="Shahid Hasan" 
+                src={irfanImg} 
+                alt="Irfan Hossein" 
                 className="h-32 w-32 object-cover rounded-full mx-auto mb-4 shadow-lg"
               />
               <h3 className="text-xl font-semibold text-primary mb-2">Industry Expert</h3>
