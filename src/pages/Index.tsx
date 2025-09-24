@@ -9,7 +9,7 @@ const Index = () => {
     {
       icon: Users,
       title: "Expert Instruction",
-      description: "Learn from industry veteran Shahid Hasan with 15+ years of Bollywood experience"
+      description: "Learn from industry veteran Shahid Hasan with 12+ years of Bollywood experience and Mr. Irfan Hoessain."
     },
     {
       icon: Star,
@@ -98,36 +98,6 @@ const Index = () => {
                   <feature.icon className="h-12 w-12 text-primary mx-auto mb-4" />
                   <h3 className="text-xl font-semibold text-foreground mb-3">{feature.title}</h3>
                   <p className="text-muted-foreground">{feature.description}</p>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Workshops Section */}
-      <section className="py-20 px-4">
-        <div className="container mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-primary mb-4">Choose Your Workshop</h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              From beginner-friendly sessions to advanced masterclasses, find the perfect program for your skill level
-            </p>
-          </div>
-          
-          <div className="grid md:grid-cols-3 gap-8">
-            {workshops.map((workshop, index) => (
-              <Card key={index} className="bg-card border-border hover:shadow-glow transition-all duration-300">
-                <CardHeader>
-                  <CardTitle className="text-2xl text-primary">{workshop.title}</CardTitle>
-                </CardHeader>
-                <CardContent className="space-y-4">
-                  <div className="text-3xl font-bold text-primary">{workshop.price}</div>
-                  <div className="text-muted-foreground">{workshop.duration}</div>
-                  <p className="text-foreground">{workshop.description}</p>
-                  <Button asChild className="w-full bg-primary text-primary-foreground hover:bg-primary/90">
-                    <Link to="/register">Enroll Now</Link>
-                  </Button>
                 </CardContent>
               </Card>
             ))}
