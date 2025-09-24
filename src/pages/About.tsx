@@ -83,13 +83,13 @@ const About = () => {
           </div>
         </div>
 
-        {/* About Irfan Hoessain */}
+        {/* About Irfan Hosseain */}
         <div className="mb-16">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold text-primary mb-6">Meet Irfan Hoessain</h2>
+              <h2 className="text-3xl font-bold text-primary mb-6">Meet Irfan Hossein</h2>
               <p className="text-foreground mb-4">
-                With over 15 years of experience in the film industry, Shahid Hasan has worked alongside 
+                With over 15 years of experience in the film industry, Irfan Hossein has worked alongside 
                 renowned directors and actors in both Bollywood and regional cinema. His passion for nurturing 
                 new talent led him to establish Bollywood Paathshaala in Dubai.
               </p>
