@@ -42,7 +42,7 @@ const About = () => {
         </div>
 
         {/* Stats Section */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-16">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-6 mb-16">
           {stats.map((stat, index) => (
             <Card key={index} className="text-center bg-card border-border">
               <CardContent className="p-6">
