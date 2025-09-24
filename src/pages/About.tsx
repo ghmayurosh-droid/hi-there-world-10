@@ -83,6 +83,35 @@ const About = () => {
           </div>
         </div>
 
+        {/* About Irfan Hoessain */}
+        <div className="mb-16">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-3xl font-bold text-primary mb-6">Meet Irfan Hoessain</h2>
+              <p className="text-foreground mb-4">
+                With over 15 years of experience in the film industry, Shahid Hasan has worked alongside 
+                renowned directors and actors in both Bollywood and regional cinema. His passion for nurturing 
+                new talent led him to establish Bollywood Paathshaala in Dubai.
+              </p>
+              <p className="text-foreground mb-4">
+                Shahid's unique teaching methodology combines traditional acting techniques with modern 
+                industry practices, ensuring students are well-prepared for today's competitive entertainment landscape.
+              </p>
+              <p className="text-foreground">
+                His students have gone on to work in major film productions, television series, and 
+                commercial campaigns across the Middle East and India.
+              </p>
+            </div>
+            <div className="bg-gradient-to-br from-primary/20 to-accent/20 rounded-lg p-8 text-center">
+              <div className="text-6xl mb-4">🎭</div>
+              <h3 className="text-xl font-semibold text-primary mb-2">Industry Expert</h3>
+              <p className="text-muted-foreground">
+                Professional actor, director, and acting coach with extensive Bollywood experience
+              </p>
+            </div>
+          </div>
+        </div>
+
         {/* What We Offer */}
         <div className="mb-16">
           <h2 className="text-3xl font-bold text-primary text-center mb-12">What We Offer</h2>
