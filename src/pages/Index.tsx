@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Link } from "react-router-dom";
 import { Star, Users, Calendar, Award, ArrowRight } from "lucide-react";
-import logoMain from "@/assets/bollywood-logo-main.png";
+import logoMain from "@/assets/BP1.png";
 
 const Index = () => {
   const features = [
@@ -58,7 +58,7 @@ const Index = () => {
             <img 
               src={logoMain} 
               alt="Bollywood Paathshaala by Shahid Hasan" 
-              className="h-32 w-auto mx-auto mb-8"
+              className="h-40 w-auto mx-auto mb-8"
             />
           </div>
           
