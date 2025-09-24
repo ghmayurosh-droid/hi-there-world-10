@@ -17,11 +17,6 @@ const Index = () => {
       description: "95% of our students land acting roles within 6 months of completing the program"
     },
     {
-      icon: Calendar,
-      title: "Flexible Schedule",
-      description: "Weekend and evening batches available to fit your lifestyle and commitments"
-    },
-    {
       icon: Award,
       title: "Industry Recognition",
       description: "Certified program recognized by casting directors and production houses in Dubai"
@@ -58,7 +53,7 @@ const Index = () => {
             <img 
               src={logoMain} 
               alt="Bollywood Paathshaala by Shahid Hasan" 
-              className="h-40 w-auto mx-auto mb-8"
+              className="h-46 w-auto mx-auto mb-8"
             />
           </div>
           
@@ -96,7 +91,7 @@ const Index = () => {
             </p>
           </div>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {features.map((feature, index) => (
               <Card key={index} className="bg-background border-border text-center hover:shadow-glow transition-all duration-300">
                 <CardContent className="p-6">
