@@ -1,7 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Star, Users, Award, Clock } from "lucide-react";
-import shahidImg from "@/assets/shahid.PNG";
-import irfanImg from "@/assets/irfan.PNG";
 
 const About = () => {
   const stats = [
@@ -76,11 +74,7 @@ const About = () => {
               </p>
             </div>
             <div className="bg-gradient-to-br from-primary/20 to-accent/20 rounded-lg p-8 text-center">
-              <img 
-                src={shahidImg} 
-                alt="Shahid Hasan" 
-                className="h-32 w-32 object-cover rounded-full mx-auto mb-4 shadow-lg"
-              />
+              <div className="text-6xl mb-4">🎭</div>
               <h3 className="text-xl font-semibold text-primary mb-2">Industry Expert</h3>
               <p className="text-muted-foreground">
                 Professional actor, director, and acting coach with extensive Bollywood experience
@@ -109,11 +103,7 @@ const About = () => {
               </p>
             </div>
             <div className="bg-gradient-to-br from-primary/20 to-accent/20 rounded-lg p-8 text-center">
-              <img 
-                src={irfanImg} 
-                alt="Irfan Hossein" 
-                className="h-32 w-32 object-cover rounded-full mx-auto mb-4 shadow-lg"
-              />
+              <div className="text-6xl mb-4">🎭</div>
               <h3 className="text-xl font-semibold text-primary mb-2">Industry Expert</h3>
               <p className="text-muted-foreground">
                 Professional actor, director, and acting coach with extensive Bollywood experience
