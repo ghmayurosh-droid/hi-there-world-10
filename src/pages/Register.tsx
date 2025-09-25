@@ -19,36 +19,16 @@ const Register = () => {
     age: "",
     experience: "",
     motivation: "",
-    workshop: "",
+    portfolio: "",
     terms: false
   });
 
-  const workshops = [
-    {
-      title: "Beginner's Bollywood Acting",
-      duration: "4 weeks",
-      schedule: "Weekends (Sat-Sun)",
-      price: "AED 1,500",
-      description: "Perfect for complete beginners. Learn fundamentals of acting, expressions, and basic dance moves."
-    },
-    {
-      title: "Advanced Method Acting",
-      duration: "6 weeks", 
-      schedule: "Weekday evenings",
-      price: "AED 2,200",
-      description: "Deep dive into character development, emotional range, and advanced acting techniques."
-    },
-    {
-      title: "Bollywood Performance Intensive",
-      duration: "8 weeks",
-      schedule: "Mixed schedule",
-      price: "AED 3,000",
-      description: "Comprehensive program covering acting, dancing, dialogue delivery, and industry preparation."
-    }
-  ];
+  // 🔹 Replace this with your Sheet.best endpoint
+  const SHEET_API = "https://api.sheetbest.com/sheets/bc2a24d8-35a8-4f2c-a7cf-bbf05d9d1d00";
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+
     if (!formData.terms) {
       toast({
         title: "Please accept terms",
@@ -57,24 +37,43 @@ const Register = () => {
       });
       return;
     }
-    
-    toast({
-      title: "Registration Submitted!",
-      description: "We'll contact you within 24 hours to confirm your spot.",
-    });
-    
-    // Reset form
-    setFormData({
-      firstName: "",
-      lastName: "", 
-      email: "",
-      phone: "",
-      age: "",
-      experience: "",
-      motivation: "",
-      workshop: "",
-      terms: false
-    });
+
+    try {
+      const response = await fetch(SHEET_API, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        toast({
+          title: "Registration Submitted!",
+          description: "Your details were saved successfully.",
+        });
+
+        setFormData({
+          firstName: "",
+          lastName: "",
+          email: "",
+          phone: "",
+          age: "",
+          experience: "",
+          motivation: "",
+          portfolio: "",
+          terms: false,
+        });
+      } else {
+        throw new Error("Failed to submit");
+      }
+    } catch (error) {
+      toast({
+        title: "Error",
+        description: "Could not submit your registration. Try again later.",
+        variant: "destructive",
+      });
+    }
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -93,34 +92,8 @@ const Register = () => {
             Register Now
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Take the first step towards your Bollywood dreams. Choose your workshop and begin your transformation journey today.
+            Take the first step towards your Bollywood dreams. Fill out the form below and we’ll get back to you soon.
           </p>
-        </div>
-
-        {/* Workshop Options */}
-        <div className="grid md:grid-cols-3 gap-6 mb-12">
-          {workshops.map((workshop, index) => (
-            <Card key={index} className="bg-card border-border hover:shadow-glow transition-all duration-300">
-              <CardHeader>
-                <CardTitle className="text-xl text-primary">{workshop.title}</CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-4">
-                <div className="flex items-center text-muted-foreground">
-                  <Clock className="h-4 w-4 mr-2" />
-                  <span className="text-sm">{workshop.duration}</span>
-                </div>
-                <div className="flex items-center text-muted-foreground">
-                  <Calendar className="h-4 w-4 mr-2" />
-                  <span className="text-sm">{workshop.schedule}</span>
-                </div>
-                <div className="flex items-center text-primary font-semibold">
-                  <Award className="h-4 w-4 mr-2" />
-                  <span>{workshop.price}</span>
-                </div>
-                <p className="text-sm text-muted-foreground">{workshop.description}</p>
-              </CardContent>
-            </Card>
-          ))}
         </div>
 
         {/* Registration Form */}
@@ -201,25 +174,30 @@ const Register = () => {
                   />
                 </div>
 
-                {/* Workshop Selection */}
+                {/* Portfolio Link */}
                 <div>
-                  <Label>Select Workshop *</Label>
-                  <Select value={formData.workshop} onValueChange={(value) => setFormData(prev => ({ ...prev, workshop: value }))}>
-                    <SelectTrigger className="mt-1">
-                      <SelectValue placeholder="Choose your workshop" />
-                    </SelectTrigger>
-                    <SelectContent>
-                      <SelectItem value="beginner">Beginner's Bollywood Acting (AED 1,500)</SelectItem>
-                      <SelectItem value="advanced">Advanced Method Acting (AED 2,200)</SelectItem>
-                      <SelectItem value="intensive">Bollywood Performance Intensive (AED 3,000)</SelectItem>
-                    </SelectContent>
-                  </Select>
+                  <Label htmlFor="portfolio"> Introduction Video Link including a 1 min monologue of your choice. </Label>
+                  <Input
+                    id="portfolio"
+                    name="portfolio"
+                    type="url"
+                    placeholder="https://yourportfolio.com"
+                    value={formData.portfolio}
+                    onChange={handleChange}
+                    required
+                    className="mt-1"
+                  />
                 </div>
 
                 {/* Experience Level */}
                 <div>
                   <Label>Acting Experience</Label>
-                  <Select value={formData.experience} onValueChange={(value) => setFormData(prev => ({ ...prev, experience: value }))}>
+                  <Select
+                    value={formData.experience}
+                    onValueChange={(value) =>
+                      setFormData(prev => ({ ...prev, experience: value }))
+                    }
+                  >
                     <SelectTrigger className="mt-1">
                       <SelectValue placeholder="Select your experience level" />
                     </SelectTrigger>
@@ -252,14 +230,19 @@ const Register = () => {
                   <Checkbox
                     id="terms"
                     checked={formData.terms}
-                    onCheckedChange={(checked) => setFormData(prev => ({ ...prev, terms: checked as boolean }))}
+                    onCheckedChange={(checked) =>
+                      setFormData(prev => ({ ...prev, terms: checked as boolean }))
+                    }
                   />
                   <Label htmlFor="terms" className="text-sm">
                     I agree to the terms and conditions and understand the workshop policies *
                   </Label>
                 </div>
 
-                <Button type="submit" className="w-full bg-primary text-primary-foreground hover:bg-primary/90">
+                <Button
+                  type="submit"
+                  className="w-full bg-primary text-primary-foreground hover:bg-primary/90"
+                >
                   Register for Workshop
                 </Button>
               </form>
@@ -286,7 +269,7 @@ const Register = () => {
                 <div className="space-y-2">
                   <div className="flex items-center text-muted-foreground">
                     <Calendar className="h-4 w-4 mr-2 text-primary" />
-                    Flexible scheduling options
+                    Personalised Show Reel
                   </div>
                   <div className="flex items-center text-muted-foreground">
                     <Clock className="h-4 w-4 mr-2 text-primary" />
