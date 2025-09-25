@@ -120,11 +120,11 @@ const About = () => {
         </div>
         
 
-        {/* About Aneez Bazmee */}
+        {/* About Anees Bazmee */}
         <div className="mb-16">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold text-primary mb-6">Meet Guest Lecturer- Aneez Bazmee</h2>
+              <h2 className="text-3xl font-bold text-primary mb-6">Meet Guest Lecturer- Anees Bazmee</h2>
               <p className="text-foreground mb-4">
                 With over 15 years of experience in the film industry, Shahid Hasan has worked alongside 
                 renowned directors and actors in both Bollywood and regional cinema. His passion for nurturing 
@@ -142,7 +142,7 @@ const About = () => {
             <div className="bg-gradient-to-br from-primary/20 to-accent/20 rounded-lg p-8 flex justify-center">
               <img 
                 src={aneezImg} 
-                alt="Aneez Bazmee" 
+                alt="Anees Bazmee" 
                 className="h-64 w-64 object-cover rounded-full shadow-lg"
               />
             </div>
