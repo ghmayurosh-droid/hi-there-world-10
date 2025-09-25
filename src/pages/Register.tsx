@@ -176,7 +176,7 @@ const Register = () => {
 
                 {/* Portfolio Link */}
                 <div>
-                  <Label htmlFor="portfolio"> Introduction Video Link including a 1 min monologue of your choice. </Label>
+                  <Label htmlFor="portfolio"> Introduction Video Link (optional) </Label>
                   <Input
                     id="portfolio"
                     name="portfolio"
@@ -184,7 +184,6 @@ const Register = () => {
                     placeholder="https://yourportfolio.com"
                     value={formData.portfolio}
                     onChange={handleChange}
-                    required
                     className="mt-1"
                   />
                 </div>
