@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Star, Users, Award, Clock } from "lucide-react";
-import shahidImg from "@/assets/shahid.PNG";
+import shahidImg from "@/assets/BP1.png";
 
 const About = () => {
   const stats = [
