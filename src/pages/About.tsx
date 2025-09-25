@@ -83,7 +83,7 @@ const About = () => {
               <img 
                 src={shahidImg} 
                 alt="Shahid Hasan" 
-                className="h-64 w-64 object-cover rounded-full shadow-lg"
+                className="h-56 w-56 object-cover rounded-full shadow-lg"
               />
             </div>
           </div>
