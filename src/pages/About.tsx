@@ -62,7 +62,7 @@ const About = () => {
 
         {/* About Shahid Hasan */}
         <div className="mb-16">
-          <div className="grid md:grid-cols-3 gap-12 items-center">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
             <div classname="md:col-span-2">
               <h2 className="text-3xl font-bold text-primary mb-6">Meet Mentor- Shahid Hasan</h2>
               <p className="text-foreground mb-4">
