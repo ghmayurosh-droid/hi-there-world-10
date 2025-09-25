@@ -1,6 +1,11 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Star, Users, Award, Clock } from "lucide-react";
-import shahidImg from "@/assets/BP1.png";
+import shahidImg from "@/assets/shahid.png";
+import irfanImg from "@/assets/irfan.png";
+import aneezImg from "@/assets/aneez.png";
+import nawazImg from "@/assets/nawaz.png";
+import rmadhavanImg from "@/assets/rmadhavan.png";
+import sharmanImg from "@/assets/sharman.png";
 
 const About = () => {
   const stats = [
@@ -59,35 +64,6 @@ const About = () => {
         <div className="mb-16">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold text-primary mb-6">Meet Shahid Hasan</h2>
-              <p className="text-foreground mb-4">
-                With over 15 years of experience in the film industry, Shahid Hasan has worked alongside 
-                renowned directors and actors in both Bollywood and regional cinema. His passion for nurturing 
-                new talent led him to establish Bollywood Paathshaala in Dubai.
-              </p>
-              <p className="text-foreground mb-4">
-                Shahid's unique teaching methodology combines traditional acting techniques with modern 
-                industry practices, ensuring students are well-prepared for today's competitive entertainment landscape.
-              </p>
-              <p className="text-foreground">
-                His students have gone on to work in major film productions, television series, and 
-                commercial campaigns across the Middle East and India.
-              </p>
-            </div>
-            <div className="flex justify-center">
-              <img 
-                src={shahidImg} 
-                alt="Shahid Hasan" 
-                className="h-64 w-64 object-cover rounded-full shadow-lg"
-              />
-            </div>
-          </div>
-        </div>
-        
-        {/* About Shahid Hasan */}
-        <div className="mb-16">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
               <h2 className="text-3xl font-bold text-primary mb-6">Meet Mentor- Shahid Hasan</h2>
               <p className="text-foreground mb-4">
                 With over 15 years of experience in the film industry, Shahid Hasan has worked alongside 
@@ -103,23 +79,24 @@ const About = () => {
                 commercial campaigns across the Middle East and India.
               </p>
             </div>
-            <div className="bg-gradient-to-br from-primary/20 to-accent/20 rounded-lg p-8 text-center">
-              <div className="text-6xl mb-4">🎭</div>
-              <h3 className="text-xl font-semibold text-primary mb-2">Industry Expert</h3>
-              <p className="text-muted-foreground">
-                Professional actor, director, and acting coach with extensive Bollywood experience
-              </p>
+            <div className="bg-gradient-to-br from-primary/20 to-accent/20 rounded-lg p-8 flex justify-center">
+              <img 
+                src={shahidImg} 
+                alt="Shahid Hasan" 
+                className="h-64 w-64 object-cover rounded-full shadow-lg"
+              />
             </div>
           </div>
         </div>
+        
 
-        {/* About Irfan Hosseain */}
+        {/* About Irfan Hossein */}
         <div className="mb-16">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl font-bold text-primary mb-6">Meet Mentor- Irfan Hossein</h2>
               <p className="text-foreground mb-4">
-                With over 15 years of experience in the film industry, Irfan Hossein has worked alongside 
+                With over 15 years of experience in the film industry, Shahid Hasan has worked alongside 
                 renowned directors and actors in both Bollywood and regional cinema. His passion for nurturing 
                 new talent led him to establish Bollywood Paathshaala in Dubai.
               </p>
@@ -132,44 +109,16 @@ const About = () => {
                 commercial campaigns across the Middle East and India.
               </p>
             </div>
-            <div className="bg-gradient-to-br from-primary/20 to-accent/20 rounded-lg p-8 text-center">
-              <div className="text-6xl mb-4">🎭</div>
-              <h3 className="text-xl font-semibold text-primary mb-2">Industry Expert</h3>
-              <p className="text-muted-foreground">
-                Professional actor, director, and acting coach with extensive Bollywood experience
-              </p>
+            <div className="bg-gradient-to-br from-primary/20 to-accent/20 rounded-lg p-8 flex justify-center">
+              <img 
+                src={irfanImg} 
+                alt="Irfan Hossein" 
+                className="h-64 w-64 object-cover rounded-full shadow-lg"
+              />
             </div>
           </div>
         </div>
-
-        {/* About Nawazuddin Siddiqui */}
-        <div className="mb-16">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl font-bold text-primary mb-6">Meet Guest Lecturer- Nawazuddin Siddiqui</h2>
-              <p className="text-foreground mb-4">
-                With over 15 years of experience in the film industry, Irfan Hossein has worked alongside 
-                renowned directors and actors in both Bollywood and regional cinema. His passion for nurturing 
-                new talent led him to establish Bollywood Paathshaala in Dubai.
-              </p>
-              <p className="text-foreground mb-4">
-                Shahid's unique teaching methodology combines traditional acting techniques with modern 
-                industry practices, ensuring students are well-prepared for today's competitive entertainment landscape.
-              </p>
-              <p className="text-foreground">
-                His students have gone on to work in major film productions, television series, and 
-                commercial campaigns across the Middle East and India.
-              </p>
-            </div>
-            <div className="bg-gradient-to-br from-primary/20 to-accent/20 rounded-lg p-8 text-center">
-              <div className="text-6xl mb-4">🎭</div>
-              <h3 className="text-xl font-semibold text-primary mb-2">Industry Expert</h3>
-              <p className="text-muted-foreground">
-                Professional actor, director, and acting coach with extensive Bollywood experience
-              </p>
-            </div>
-          </div>
-        </div>
+        
 
         {/* About Aneez Bazmee */}
         <div className="mb-16">
@@ -177,7 +126,7 @@ const About = () => {
             <div>
               <h2 className="text-3xl font-bold text-primary mb-6">Meet Guest Lecturer- Aneez Bazmee</h2>
               <p className="text-foreground mb-4">
-                With over 15 years of experience in the film industry, Irfan Hossein has worked alongside 
+                With over 15 years of experience in the film industry, Shahid Hasan has worked alongside 
                 renowned directors and actors in both Bollywood and regional cinema. His passion for nurturing 
                 new talent led him to establish Bollywood Paathshaala in Dubai.
               </p>
@@ -190,15 +139,106 @@ const About = () => {
                 commercial campaigns across the Middle East and India.
               </p>
             </div>
-            <div className="bg-gradient-to-br from-primary/20 to-accent/20 rounded-lg p-8 text-center">
-              <div className="text-6xl mb-4">🎭</div>
-              <h3 className="text-xl font-semibold text-primary mb-2">Industry Expert</h3>
-              <p className="text-muted-foreground">
-                Professional actor, director, and acting coach with extensive Bollywood experience
-              </p>
+            <div className="bg-gradient-to-br from-primary/20 to-accent/20 rounded-lg p-8 flex justify-center">
+              <img 
+                src={aneezImg} 
+                alt="Aneez Bazmee" 
+                className="h-64 w-64 object-cover rounded-full shadow-lg"
+              />
             </div>
           </div>
         </div>
+        
+
+        {/* About Nawazuddin Siddiqui  */}
+        <div className="mb-16">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-3xl font-bold text-primary mb-6">Meet Guest Lecturer- Nawazuddin Siddiqui</h2>
+              <p className="text-foreground mb-4">
+                With over 15 years of experience in the film industry, Shahid Hasan has worked alongside 
+                renowned directors and actors in both Bollywood and regional cinema. His passion for nurturing 
+                new talent led him to establish Bollywood Paathshaala in Dubai.
+              </p>
+              <p className="text-foreground mb-4">
+                Shahid's unique teaching methodology combines traditional acting techniques with modern 
+                industry practices, ensuring students are well-prepared for today's competitive entertainment landscape.
+              </p>
+              <p className="text-foreground">
+                His students have gone on to work in major film productions, television series, and 
+                commercial campaigns across the Middle East and India.
+              </p>
+            </div>
+            <div className="bg-gradient-to-br from-primary/20 to-accent/20 rounded-lg p-8 flex justify-center">
+              <img 
+                src={nawazImg} 
+                alt="Nawaazuddin Siddiqui" 
+                className="h-64 w-64 object-cover rounded-full shadow-lg"
+              />
+            </div>
+          </div>
+        </div>
+        
+
+        {/* About R Madhavan */}
+        <div className="mb-16">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-3xl font-bold text-primary mb-6">Meet Guest Lecturer- R Madhavan</h2>
+              <p className="text-foreground mb-4">
+                With over 15 years of experience in the film industry, Shahid Hasan has worked alongside 
+                renowned directors and actors in both Bollywood and regional cinema. His passion for nurturing 
+                new talent led him to establish Bollywood Paathshaala in Dubai.
+              </p>
+              <p className="text-foreground mb-4">
+                Shahid's unique teaching methodology combines traditional acting techniques with modern 
+                industry practices, ensuring students are well-prepared for today's competitive entertainment landscape.
+              </p>
+              <p className="text-foreground">
+                His students have gone on to work in major film productions, television series, and 
+                commercial campaigns across the Middle East and India.
+              </p>
+            </div>
+            <div className="bg-gradient-to-br from-primary/20 to-accent/20 rounded-lg p-8 flex justify-center">
+              <img 
+                src={rmadhavanImg} 
+                alt="R Madhavan" 
+                className="h-64 w-64 object-cover rounded-full shadow-lg"
+              />
+            </div>
+          </div>
+        </div>
+        
+
+        {/* About Sharman Joshi */}
+        <div className="mb-16">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 className="text-3xl font-bold text-primary mb-6">Meet Guest Lecturer- Sharman Joshi</h2>
+              <p className="text-foreground mb-4">
+                With over 15 years of experience in the film industry, Shahid Hasan has worked alongside 
+                renowned directors and actors in both Bollywood and regional cinema. His passion for nurturing 
+                new talent led him to establish Bollywood Paathshaala in Dubai.
+              </p>
+              <p className="text-foreground mb-4">
+                Shahid's unique teaching methodology combines traditional acting techniques with modern 
+                industry practices, ensuring students are well-prepared for today's competitive entertainment landscape.
+              </p>
+              <p className="text-foreground">
+                His students have gone on to work in major film productions, television series, and 
+                commercial campaigns across the Middle East and India.
+              </p>
+            </div>
+            <div className="bg-gradient-to-br from-primary/20 to-accent/20 rounded-lg p-8 flex justify-center">
+              <img 
+                src={sharmanImg} 
+                alt="Sharman Joshi" 
+                className="h-64 w-64 object-cover rounded-full shadow-lg"
+              />
+            </div>
+          </div>
+        </div>
+        
 
 
 
