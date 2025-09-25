@@ -24,7 +24,7 @@ const Register = () => {
   });
 
   // 🔹 Replace this with your Sheet.best endpoint
-  const SHEET_API = "https://sheet.best/api/sheets/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx";
+  const SHEET_API = "https://api.sheetbest.com/sheets/bc2a24d8-35a8-4f2c-a7cf-bbf05d9d1d00";
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -269,7 +269,7 @@ const Register = () => {
                 <div className="space-y-2">
                   <div className="flex items-center text-muted-foreground">
                     <Calendar className="h-4 w-4 mr-2 text-primary" />
-                    Flexible scheduling options
+                    Personalised Show Reel
                   </div>
                   <div className="flex items-center text-muted-foreground">
                     <Clock className="h-4 w-4 mr-2 text-primary" />
