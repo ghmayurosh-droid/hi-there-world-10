@@ -62,8 +62,8 @@ const About = () => {
 
         {/* About Shahid Hasan */}
         <div className="mb-16">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
+          <div className="flex flex-col md:flex-row md:items-center md:gap-12">
+            <div classname="flex-1">
               <h2 className="text-3xl font-bold text-primary mb-6">Meet Mentor- Shahid Hasan</h2>
               <p className="text-foreground mb-4">
                 With over 15 years of experience in the film industry, Shahid Hasan has worked alongside 
