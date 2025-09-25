@@ -79,7 +79,7 @@ const About = () => {
                 commercial campaigns across the Middle East and India.
               </p>
             </div>
-            <div className="bg-gradient-to-br from-primary/20 to-accent/20 rounded-lg p-8 flex justify-center">
+            <div className="flex justify-center">
               <img 
                 src={shahidImg} 
                 alt="Shahid Hasan" 
@@ -109,7 +109,7 @@ const About = () => {
                 commercial campaigns across the Middle East and India.
               </p>
             </div>
-            <div className="bg-gradient-to-br from-primary/20 to-accent/20 rounded-lg p-8 flex justify-center">
+            <div className="flex justify-center">
               <img 
                 src={irfanImg} 
                 alt="Irfan Hossein" 
@@ -139,7 +139,7 @@ const About = () => {
                 commercial campaigns across the Middle East and India.
               </p>
             </div>
-            <div className="bg-gradient-to-br from-primary/20 to-accent/20 rounded-lg p-8 flex justify-center">
+            <div className="flex justify-center">
               <img 
                 src={aneezImg} 
                 alt="Anees Bazmee" 
@@ -169,7 +169,7 @@ const About = () => {
                 commercial campaigns across the Middle East and India.
               </p>
             </div>
-            <div className="bg-gradient-to-br from-primary/20 to-accent/20 rounded-lg p-8 flex justify-center">
+            <div className="flex justify-center">
               <img 
                 src={nawazImg} 
                 alt="Nawaazuddin Siddiqui" 
@@ -199,7 +199,7 @@ const About = () => {
                 commercial campaigns across the Middle East and India.
               </p>
             </div>
-            <div className="bg-gradient-to-br from-primary/20 to-accent/20 rounded-lg p-8 flex justify-center">
+            <div className="flex justify-center">
               <img 
                 src={rmadhavanImg} 
                 alt="R Madhavan" 
@@ -229,7 +229,7 @@ const About = () => {
                 commercial campaigns across the Middle East and India.
               </p>
             </div>
-            <div className="bg-gradient-to-br from-primary/20 to-accent/20 rounded-lg p-8 flex justify-center">
+            <div className="flex justify-center">
               <img 
                 src={sharmanImg} 
                 alt="Sharman Joshi" 
