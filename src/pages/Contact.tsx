@@ -3,77 +3,27 @@ import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { Checkbox } from "@/components/ui/checkbox";
+import { MapPin, Phone, Mail, Clock } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
-import { Calendar, Clock, Users, Award } from "lucide-react";
 
-const Register = () => {
+const Contact = () => {
   const { toast } = useToast();
   const [formData, setFormData] = useState({
-    firstName: "",
-    lastName: "",
+    name: "",
     email: "",
     phone: "",
-    age: "",
-    experience: "",
-    motivation: "",
-    portfolio: "",
-    terms: false
+    message: ""
   });
 
-  // 🔹 Replace this with your Sheet.best endpoint
-  const SHEET_API = "https://api.sheetbest.com/sheets/bc2a24d8-35a8-4f2c-a7cf-bbf05d9d1d00";
-
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-
-    if (!formData.terms) {
-      toast({
-        title: "Please accept terms",
-        description: "You must accept the terms and conditions to register.",
-        variant: "destructive"
-      });
-      return;
-    }
-
-    try {
-      const response = await fetch(SHEET_API, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
-
-      if (response.ok) {
-        toast({
-          title: "Registration Submitted!",
-          description: "Your details were saved successfully.",
-        });
-
-        setFormData({
-          firstName: "",
-          lastName: "",
-          email: "",
-          phone: "",
-          age: "",
-          experience: "",
-          motivation: "",
-          portfolio: "",
-          terms: false,
-        });
-      } else {
-        throw new Error("Failed to submit");
-      }
-    } catch (error) {
-      toast({
-        title: "Error",
-        description: "Could not submit your registration. Try again later.",
-        variant: "destructive",
-      });
-    }
+    // For now, just show a success message
+    toast({
+      title: "Message Sent!",
+      description: "We'll get back to you within 24 hours.",
+    });
+    setFormData({ name: "", email: "", phone: "", message: "" });
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -89,200 +39,84 @@ const Register = () => {
         {/* Hero Section */}
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-6xl font-bold text-primary mb-6">
-            Register Now
+            Get In Touch
           </h1>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Take the first step towards your Bollywood dreams. Fill out the form below and we’ll get back to you soon.
+          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            Ready to start your Bollywood journey? Contact us for more information about our workshops and training programs.
           </p>
         </div>
 
-        {/* Registration Form */}
-        <div className="max-w-2xl mx-auto">
-          <Card className="bg-card border-border">
-            <CardHeader>
-              <CardTitle className="text-2xl text-primary text-center">Workshop Registration</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <form onSubmit={handleSubmit} className="space-y-6">
-                {/* Personal Information */}
-                <div className="grid md:grid-cols-2 gap-4">
+        <div className="grid lg:grid-cols-1 gap-12">
+          
+          {/* Contact Information */}
+          <div className="space-y-8">
+            {/* Contact Details */}
+            <Card className="bg-card border-border">
+              <CardHeader>
+                <CardTitle className="text-2xl text-primary">Contact Information</CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-6">
+                <div className="flex items-start space-x-4">
+                  <MapPin className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                   <div>
-                    <Label htmlFor="firstName">First Name *</Label>
-                    <Input
-                      id="firstName"
-                      name="firstName"
-                      type="text"
-                      value={formData.firstName}
-                      onChange={handleChange}
-                      required
-                      className="mt-1"
-                    />
+                    <h3 className="font-semibold text-foreground">Location</h3>
+                    <p className="text-muted-foreground">Dubai, UAE</p>
+                    <p className="text-muted-foreground text-sm">Exact location shared upon registration</p>
                   </div>
+                </div>
+                
+                <div className="flex items-start space-x-4">
+                  <Phone className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                   <div>
-                    <Label htmlFor="lastName">Last Name *</Label>
-                    <Input
-                      id="lastName"
-                      name="lastName"
-                      type="text"
-                      value={formData.lastName}
-                      onChange={handleChange}
-                      required
-                      className="mt-1"
-                    />
+                    <h3 className="font-semibold text-foreground">Phone</h3>
+                    <p className="text-muted-foreground">+971-XX-XXX-XXXX</p>
                   </div>
                 </div>
-
-                <div className="grid md:grid-cols-2 gap-4">
+                
+                <div className="flex items-start space-x-4">
+                  <Mail className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                   <div>
-                    <Label htmlFor="email">Email Address *</Label>
-                    <Input
-                      id="email"
-                      name="email"
-                      type="email"
-                      value={formData.email}
-                      onChange={handleChange}
-                      required
-                      className="mt-1"
-                    />
+                    <h3 className="font-semibold text-foreground">Email</h3>
+                    <p className="text-muted-foreground">info@bollywoodpaathshaala.com</p>
                   </div>
+                </div>
+                
+                <div className="flex items-start space-x-4">
+                  <Clock className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                   <div>
-                    <Label htmlFor="phone">Phone Number *</Label>
-                    <Input
-                      id="phone"
-                      name="phone"
-                      type="tel"
-                      value={formData.phone}
-                      onChange={handleChange}
-                      required
-                      className="mt-1"
-                    />
+                    <h3 className="font-semibold text-foreground">Workshop Hours</h3>
+                    <p className="text-muted-foreground">Weekends: 10:00 AM - 6:00 PM</p>
+                    <p className="text-muted-foreground">Weekdays: 7:00 PM - 10:00 PM</p>
                   </div>
                 </div>
+              </CardContent>
+            </Card>
 
-                <div>
-                  <Label htmlFor="age">Age *</Label>
-                  <Input
-                    id="age"
-                    name="age"
-                    type="number"
-                    min="16"
-                    max="65"
-                    value={formData.age}
-                    onChange={handleChange}
-                    required
-                    className="mt-1"
-                  />
+            {/* Map */}
+            <Card className="bg-card border-border">
+              <CardHeader>
+                <CardTitle className="text-xl text-primary">Find Us</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <div className="w-full h-64 bg-muted rounded-lg flex items-center justify-center">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462560.6156400807!2d54.89760327218286!3d25.076262081367677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2s!4v1703181234567!5m2!1sen!2s"
+                    width="100%"
+                    height="256"
+                    style={{ border: 0 }}
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    className="rounded-lg"
+                  ></iframe>
                 </div>
-
-                {/* Portfolio Link */}
-                <div>
-                  <Label htmlFor="portfolio"> Introduction Video Link including a 1 min monologue of your choice. </Label>
-                  <Input
-                    id="portfolio"
-                    name="portfolio"
-                    type="url"
-                    placeholder="https://yourportfolio.com"
-                    value={formData.portfolio}
-                    onChange={handleChange}
-                    required
-                    className="mt-1"
-                  />
-                </div>
-
-                {/* Experience Level */}
-                <div>
-                  <Label>Acting Experience</Label>
-                  <Select
-                    value={formData.experience}
-                    onValueChange={(value) =>
-                      setFormData(prev => ({ ...prev, experience: value }))
-                    }
-                  >
-                    <SelectTrigger className="mt-1">
-                      <SelectValue placeholder="Select your experience level" />
-                    </SelectTrigger>
-                    <SelectContent>
-                      <SelectItem value="none">Complete Beginner</SelectItem>
-                      <SelectItem value="some">Some Experience (School/College)</SelectItem>
-                      <SelectItem value="intermediate">Intermediate (Theatre/Amateur)</SelectItem>
-                      <SelectItem value="advanced">Advanced (Professional Experience)</SelectItem>
-                    </SelectContent>
-                  </Select>
-                </div>
-
-                {/* Motivation */}
-                <div>
-                  <Label htmlFor="motivation">Why do you want to join? *</Label>
-                  <Textarea
-                    id="motivation"
-                    name="motivation"
-                    value={formData.motivation}
-                    onChange={handleChange}
-                    required
-                    rows={4}
-                    className="mt-1"
-                    placeholder="Tell us about your acting goals and what you hope to achieve..."
-                  />
-                </div>
-
-                {/* Terms and Conditions */}
-                <div className="flex items-center space-x-2">
-                  <Checkbox
-                    id="terms"
-                    checked={formData.terms}
-                    onCheckedChange={(checked) =>
-                      setFormData(prev => ({ ...prev, terms: checked as boolean }))
-                    }
-                  />
-                  <Label htmlFor="terms" className="text-sm">
-                    I agree to the terms and conditions and understand the workshop policies *
-                  </Label>
-                </div>
-
-                <Button
-                  type="submit"
-                  className="w-full bg-primary text-primary-foreground hover:bg-primary/90"
-                >
-                  Register for Workshop
-                </Button>
-              </form>
-            </CardContent>
-          </Card>
-
-          {/* Additional Information */}
-          <Card className="mt-8 bg-card border-border">
-            <CardHeader>
-              <CardTitle className="text-xl text-primary">What's Included</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="grid md:grid-cols-2 gap-4 text-sm">
-                <div className="space-y-2">
-                  <div className="flex items-center text-muted-foreground">
-                    <Users className="h-4 w-4 mr-2 text-primary" />
-                    Small class sizes (max 12 students)
-                  </div>
-                  <div className="flex items-center text-muted-foreground">
-                    <Award className="h-4 w-4 mr-2 text-primary" />
-                    Certificate of completion
-                  </div>
-                </div>
-                <div className="space-y-2">
-                  <div className="flex items-center text-muted-foreground">
-                    <Calendar className="h-4 w-4 mr-2 text-primary" />
-                    Personalised Show Reel
-                  </div>
-                  <div className="flex items-center text-muted-foreground">
-                    <Clock className="h-4 w-4 mr-2 text-primary" />
-                    Individual feedback sessions
-                  </div>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
+              </CardContent>
+            </Card>
+          </div>
         </div>
       </div>
     </div>
   );
 };
 
-export default Register;
+export default Contact;
