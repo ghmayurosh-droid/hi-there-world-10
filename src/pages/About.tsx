@@ -63,7 +63,7 @@ const About = () => {
         {/* About Shahid Hasan */}
         <div className="mb-16">
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div classname="md:col-span-2">
+            <div>
               <h2 className="text-3xl font-bold text-primary mb-6">Meet Mentor- Shahid Hasan</h2>
               <p className="text-foreground mb-4">
                 With over 15 years of experience in the film industry, Shahid Hasan has worked alongside 
@@ -83,7 +83,7 @@ const About = () => {
               <img 
                 src={shahidImg} 
                 alt="Shahid Hasan" 
-                className="h-64 w-64 object-cover rounded-full shadow-lg"
+                className="h-72 w-72 object-cover rounded-full shadow-lg"
               />
             </div>
           </div>
