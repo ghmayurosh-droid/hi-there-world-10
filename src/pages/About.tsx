@@ -79,11 +79,11 @@ const About = () => {
                 commercial campaigns across the Middle East and India.
               </p>
             </div>
-            <div className="flex justify-center">
+            <div className="flex-1 flex justify-center">
               <img 
                 src={shahidImg} 
                 alt="Shahid Hasan" 
-                className="h-72 w-72 object-cover rounded-full shadow-lg"
+                className="h-64 w-64 object-cover rounded-full shadow-lg"
               />
             </div>
           </div>
