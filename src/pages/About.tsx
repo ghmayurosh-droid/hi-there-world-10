@@ -92,7 +92,7 @@ const About = () => {
 
         {/* About Irfan Hossein */}
         <div className="mb-16">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="flex flex-col md:flex-row md:items-center md:gap-12">
             <div>
               <h2 className="text-3xl font-bold text-primary mb-6">Meet Mentor- Irfan Hossein</h2>
               <p className="text-foreground mb-4">
@@ -113,7 +113,7 @@ const About = () => {
               <img 
                 src={irfanImg} 
                 alt="Irfan Hossein" 
-                className="h-64 w-64 object-cover rounded-full shadow-lg"
+                className="h-56 w-56 object-cover rounded-full shadow-lg"
               />
             </div>
           </div>
@@ -122,7 +122,7 @@ const About = () => {
 
         {/* About Anees Bazmee */}
         <div className="mb-16">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="flex flex-col md:flex-row md:items-center md:gap-12">
             <div>
               <h2 className="text-3xl font-bold text-primary mb-6">Meet Guest Lecturer- Anees Bazmee</h2>
               <p className="text-foreground mb-4">
@@ -143,7 +143,7 @@ const About = () => {
               <img 
                 src={aneezImg} 
                 alt="Anees Bazmee" 
-                className="h-64 w-64 object-cover rounded-full shadow-lg"
+                className="h-56 w-56 object-cover rounded-full shadow-lg"
               />
             </div>
           </div>
@@ -152,7 +152,7 @@ const About = () => {
 
         {/* About Nawazuddin Siddiqui  */}
         <div className="mb-16">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="flex flex-col md:flex-row md:items-center md:gap-12">
             <div>
               <h2 className="text-3xl font-bold text-primary mb-6">Meet Guest Lecturer- Nawazuddin Siddiqui</h2>
               <p className="text-foreground mb-4">
@@ -173,7 +173,7 @@ const About = () => {
               <img 
                 src={nawazImg} 
                 alt="Nawaazuddin Siddiqui" 
-                className="h-64 w-64 object-cover rounded-full shadow-lg"
+                className="h-56 w-56 object-cover rounded-full shadow-lg"
               />
             </div>
           </div>
@@ -182,7 +182,7 @@ const About = () => {
 
         {/* About R Madhavan */}
         <div className="mb-16">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="flex flex-col md:flex-row md:items-center md:gap-12">
             <div>
               <h2 className="text-3xl font-bold text-primary mb-6">Meet Guest Lecturer- R Madhavan</h2>
               <p className="text-foreground mb-4">
@@ -203,7 +203,7 @@ const About = () => {
               <img 
                 src={rmadhavanImg} 
                 alt="R Madhavan" 
-                className="h-64 w-64 object-cover rounded-full shadow-lg"
+                className="h-56 w-56 object-cover rounded-full shadow-lg"
               />
             </div>
           </div>
@@ -212,7 +212,7 @@ const About = () => {
 
         {/* About Sharman Joshi */}
         <div className="mb-16">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="flex flex-col md:flex-row md:items-center md:gap-12">
             <div>
               <h2 className="text-3xl font-bold text-primary mb-6">Meet Guest Lecturer- Sharman Joshi</h2>
               <p className="text-foreground mb-4">
@@ -233,7 +233,7 @@ const About = () => {
               <img 
                 src={sharmanImg} 
                 alt="Sharman Joshi" 
-                className="h-64 w-64 object-cover rounded-full shadow-lg"
+                className="h-56 w-56 object-cover rounded-full shadow-lg"
               />
             </div>
           </div>
