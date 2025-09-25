@@ -46,73 +46,8 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12">
-          {/* Contact Form */}
-          <Card className="bg-card border-border">
-            <CardHeader>
-              <CardTitle className="text-2xl text-primary">Send us a Message</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <form onSubmit={handleSubmit} className="space-y-6">
-                <div>
-                  <Label htmlFor="name">Full Name</Label>
-                  <Input
-                    id="name"
-                    name="name"
-                    type="text"
-                    value={formData.name}
-                    onChange={handleChange}
-                    required
-                    className="mt-1"
-                  />
-                </div>
-                
-                <div>
-                  <Label htmlFor="email">Email Address</Label>
-                  <Input
-                    id="email"
-                    name="email"
-                    type="email"
-                    value={formData.email}
-                    onChange={handleChange}
-                    required
-                    className="mt-1"
-                  />
-                </div>
-                
-                <div>
-                  <Label htmlFor="phone">Phone Number</Label>
-                  <Input
-                    id="phone"
-                    name="phone"
-                    type="tel"
-                    value={formData.phone}
-                    onChange={handleChange}
-                    className="mt-1"
-                  />
-                </div>
-                
-                <div>
-                  <Label htmlFor="message">Message</Label>
-                  <Textarea
-                    id="message"
-                    name="message"
-                    value={formData.message}
-                    onChange={handleChange}
-                    required
-                    rows={5}
-                    className="mt-1"
-                    placeholder="Tell us about your acting experience and what you hope to achieve..."
-                  />
-                </div>
-                
-                <Button type="submit" className="w-full bg-primary text-primary-foreground hover:bg-primary/90">
-                  Send Message
-                </Button>
-              </form>
-            </CardContent>
-          </Card>
-
+        <div className="grid lg:grid-cols-1 gap-12">
+          
           {/* Contact Information */}
           <div className="space-y-8">
             {/* Contact Details */}
