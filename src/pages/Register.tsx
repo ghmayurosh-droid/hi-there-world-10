@@ -209,21 +209,6 @@ const Register = () => {
                   </Select>
                 </div>
 
-                {/* Motivation */}
-                <div>
-                  <Label htmlFor="motivation">Why do you want to join? *</Label>
-                  <Textarea
-                    id="motivation"
-                    name="motivation"
-                    value={formData.motivation}
-                    onChange={handleChange}
-                    required
-                    rows={4}
-                    className="mt-1"
-                    placeholder="Tell us about your acting goals and what you hope to achieve..."
-                  />
-                </div>
-
                 {/* Terms and Conditions */}
                 <div className="flex items-center space-x-2">
                   <Checkbox
