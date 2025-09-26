@@ -129,12 +129,8 @@ const About = () => {
                  of hearts through his storytelling, all over the world.
               </p>
               <p className="text-foreground mb-4">
-                Shahid's unique teaching methodology combines traditional acting techniques with modern 
-                industry practices, ensuring students are well-prepared for today's competitive entertainment landscape.
-              </p>
-              <p className="text-foreground">
-                His students have gone on to work in major film productions, television series, and 
-                commercial campaigns across the Middle East and India.
+                He has made people cry, fall in love and fall off their seats laughing. Truly a master, he has carved a niche for himself in the world
+                of blockbuster and entertainment of Indian cinema.
               </p>
             </div>
             <div className="flex justify-center">
