@@ -125,17 +125,14 @@ const About = () => {
             <div>
               <h2 className="text-3xl font-bold text-primary mb-6">Meet Guest Lecturer- Anees Bazmee</h2>
               <p className="text-foreground mb-4">
-                With over 15 years of experience in the film industry, Shahid Hasan has worked alongside 
-                renowned directors and actors in both Bollywood and regional cinema. His passion for nurturing 
-                new talent led him to establish Bollywood Paathshaala in Dubai.
+                A career traversing over three and a half decades and counting 
+                he has mastered the art of filmmaking and has captured millions of hearts through his storytelling, 
+                all over the world. He has made people cry, fall in love and fall off their seats laughing.
               </p>
               <p className="text-foreground mb-4">
-                Shahid's unique teaching methodology combines traditional acting techniques with modern 
-                industry practices, ensuring students are well-prepared for today's competitive entertainment landscape.
+                Truly a master, he has carved a niche for himself in the world of blockbuster
+                and entertainment of Indian cinema.
               </p>
-              <p className="text-foreground">
-                His students have gone on to work in major film productions, television series, and 
-                commercial campaigns across the Middle East and India.
               </p>
             </div>
             <div className="flex justify-center">
