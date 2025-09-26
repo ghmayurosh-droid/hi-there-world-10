@@ -65,6 +65,9 @@ const Footer = () => {
               <Link to="/testimonials" className="block text-muted-foreground hover:text-primary transition-colors">
                 Testimonials
               </Link>
+              <Link to="/inassociationwith" className="block text-muted-foreground hover:text-primary transition-colors">
+                In Association with
+              </Link>
               <Link to="/register" className="block text-muted-foreground hover:text-primary transition-colors">
                 Register
               </Link>
