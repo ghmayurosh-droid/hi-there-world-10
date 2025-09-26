@@ -160,6 +160,10 @@ const About = () => {
                 Nawazuddin Siddiqui is the only Actor in the world having 8 films officially 
                 selected and screened at the prestigious Cannes Film Festival.
               </p>
+              <p className="text-foreground">
+                His students have gone on to work in major film productions, television series, and 
+                commercial campaigns across the Middle East and India.
+              </p>
             </div>
             <div className="flex justify-center">
               <img 
