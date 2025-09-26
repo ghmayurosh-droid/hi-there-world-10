@@ -119,7 +119,7 @@ const About = () => {
         </div>
         
 
-       {/* About Irfan Hossein */}
+        {/* About Anees Bazmee */}
         <div className="mb-16">
           <div className="flex flex-col md:flex-row md:items-center md:gap-12">
             <div>
@@ -140,7 +140,7 @@ const About = () => {
             </div>
             <div className="flex justify-center">
               <img 
-                src={AneezImg} 
+                src={aneezImg} 
                 alt="Anees Bazmee" 
                 className="h-56 w-56 object-cover rounded-full shadow-lg"
               />
@@ -148,6 +148,7 @@ const About = () => {
           </div>
         </div>
         
+
         {/* About Nawazuddin Siddiqui  */}
         <div className="mb-16">
           <div className="flex flex-col md:flex-row md:items-center md:gap-12">
