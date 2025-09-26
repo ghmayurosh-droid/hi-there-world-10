@@ -22,7 +22,6 @@ import unforgettableImg from "@/assets/unforgettable.jpg";
 import geniusBeautyImg from "@/assets/genius-of-beauty.jpg";
 import grandMastiImg from "@/assets/grand-masti.jpg";
 import jokerImg from "@/assets/joker.jpg";
-import societyKaamImg from "@/assets/society-kaam-se-gayi.jpg";
 import doubleDhamaalImg from "@/assets/double-dhamaal.jpg";
 import readyImg from "@/assets/ready.jpg";
 import thankYouImg from "@/assets/thank-you.jpg";
@@ -65,7 +64,6 @@ const Filmography = () => {
     { title: "The Genius of Beauty", year: 2014, role: "Casting Director", image: geniusBeautyImg },
     { title: "Grand Masti", year: 2013, role: "Casting Director", image: grandMastiImg },
     { title: "Joker", year: 2012, role: "Casting Director", image: jokerImg },
-    { title: "Society Kaam Se Gayi", year: 2011, role: "Casting Director", image: societyKaamImg },
     { title: "Double Dhamaal", year: 2011, role: "Casting Director", image: doubleDhamaalImg },
     { title: "Ready", year: 2011, role: "Casting Director", image: readyImg },
     { title: "Thank You", year: 2011, role: "Casting Director", image: thankYouImg },
