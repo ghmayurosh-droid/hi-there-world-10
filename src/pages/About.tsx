@@ -66,17 +66,16 @@ const About = () => {
             <div classname="flex-1">
               <h2 className="text-3xl font-bold text-primary mb-6">Meet Mentor- Shahid Hasan</h2>
               <p className="text-foreground mb-4">
-                With over 15 years of experience in the film industry, Shahid Hasan has worked alongside 
-                renowned directors and actors in both Bollywood and regional cinema. His passion for nurturing 
-                new talent led him to establish Bollywood Paathshaala in Dubai.
+                The Visionary Casting Maestro and Creative Powerhouse Shahid Hasan stands as a titan in Bollywood's casting landscape, 
+                a celebrated casting director with over 15 years of unparalleled expertise in unearthing and sculpting exceptional talent.
               </p>
               <p className="text-foreground mb-4">
-                Shahid's unique teaching methodology combines traditional acting techniques with modern 
-                industry practices, ensuring students are well-prepared for today's competitive entertainment landscape.
+                Renowned for his razor-sharp instinct and creative foresight, 
+                Hasan has left an indelible mark on Indian cinema, television, and international projects, transforming raw potential into on-screen brilliance.
               </p>
               <p className="text-foreground">
-                His students have gone on to work in major film productions, television series, and 
-                commercial campaigns across the Middle East and India.
+                Hasan is not just a casting director-he is a storyteller, 
+                a talent alchemist, and a driving force in the entertainment world, whose legacy continues to inspire and captivate.
               </p>
             </div>
             <div className="flex justify-center">
