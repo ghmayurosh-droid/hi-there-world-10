@@ -1,13 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 
 // ----------------- Upcoming Films Posters -----------------
-import masti4Img from "@/assets/masti4.jpg";
-import veerKiHeerImg from "@/assets/veer-ki-heer.jpg";
-import dhamaal4Img from "@/assets/dhamaal4.jpg";
-import aankhen2Img from "@/assets/aankhen2.jpg";
-import inspectorAvinashMahakaalImg from "@/assets/inspector-avinash-mahakaal.jpg";
-import kashmirParadiseImg from "@/assets/kashmir-paradise.jpg";
-import ekSaathDoDoImg from "@/assets/ek-saath-do-do.jpg";
+import comingsoonImg from "@/assets/coming-soon.jpg";
 
 // ----------------- Previous Films Posters -----------------
 import mannuKyaKareggaImg from "@/assets/mannu-kya-karegga.jpg";
@@ -18,7 +12,6 @@ import mereDeshImg from "@/assets/mere-desh-ki-dharti.jpg";
 import pagalpantiImg from "@/assets/pagalpanti.jpg";
 import totalDhamaalImg from "@/assets/total-dhamaal.jpg";
 import bulbulImg from "@/assets/bulbul.jpg";
-import powderImg from "@/assets/powder.jpg";
 import kabaliImg from "@/assets/kabali.jpg";
 import greatGrandMastiImg from "@/assets/great-grand-masti.jpg";
 import silentHeroesImg from "@/assets/silent-heroes.jpg";
@@ -28,7 +21,6 @@ import royImg from "@/assets/roy.jpg";
 import unforgettableImg from "@/assets/unforgettable.jpg";
 import geniusBeautyImg from "@/assets/genius-of-beauty.jpg";
 import grandMastiImg from "@/assets/grand-masti.jpg";
-import siddharthaImg from "@/assets/sri-siddhartha-gautama.jpg";
 import jokerImg from "@/assets/joker.jpg";
 import societyKaamImg from "@/assets/society-kaam-se-gayi.jpg";
 import doubleDhamaalImg from "@/assets/double-dhamaal.jpg";
@@ -41,13 +33,16 @@ import actionReplayyImg from "@/assets/action-replayy.jpg";
 const Filmography = () => {
   // ----------------- Upcoming Films -----------------
   const upcomingFilms = [
-    { title: "Masti 4", year: 2025, role: "Casting Director", image: masti4Img },
-    { title: "Veer Ki Heer", year: 2025, role: "Casting Director", image: veerKiHeerImg },
-    { title: "Dhamaal 4", year: 2026, role: "Casting Director", image: dhamaal4Img },
-    { title: "Aankhen 2", year: null, role: "Casting Director", image: aankhen2Img },
-    { title: "Inspector Avinash: The Return of Mahakaal", year: null, role: "Casting Director", image: inspectorAvinashMahakaalImg },
-    { title: "Kashmir - Enigma of Paradise", year: null, role: "Casting Director", image: kashmirParadiseImg },
-    { title: "Ek Saath Do Do", year: null, role: "Casting Director", image: ekSaathDoDoImg },
+    { title: "Masti 4", year: 2025, role: "Casting Director", image: comingsoonImg },
+    { title: "Veer Ki Heer", year: 2025, role: "Casting Director", image: comingsoonImg },
+    { title: "Dhamaal 4", year: 2026, role: "Casting Director", image: comingsoonImg },
+    { title: "Aankhen 2", year: null, role: "Casting Director", image: comingsoonImg },
+    { title: "Inspector Avinash: The Return of Mahakaal", year: null, role: "Casting Director", image: comingsoonImg },
+    { title: "Kashmir - Enigma of Paradise", year: null, role: "Casting Director", image: comingsoonImg },
+    { title: "Ek Saath Do Do", year: null, role: "Casting Director", image: comingsoonImg },
+    { title: "Victoe Betaal", year: null, role: "Casting Director", image: comingsoonImg },
+    { title: "Ghutann", year: null, role: "Casting Director", image: comingsoonImg },
+    { title: "Punters", year: null, role: "Casting Director", image: comingsoonImg },
   ];
 
   // ----------------- Previous Films -----------------
@@ -60,7 +55,6 @@ const Filmography = () => {
     { title: "Pagalpanti", year: 2019, role: "Casting Director", image: pagalpantiImg },
     { title: "Total Dhamaal", year: 2019, role: "Casting Director", image: totalDhamaalImg },
     { title: "Bulbul (Short)", year: 2017, role: "Casting Director", image: bulbulImg },
-    { title: "Powder (Short)", year: 2016, role: "Casting Director", image: powderImg },
     { title: "Kabali", year: 2016, role: "Casting Director", image: kabaliImg },
     { title: "Great Grand Masti", year: 2016, role: "Casting Director", image: greatGrandMastiImg },
     { title: "The Silent Heroes", year: 2015, role: "Casting Director", image: silentHeroesImg },
@@ -70,7 +64,6 @@ const Filmography = () => {
     { title: "Unforgettable", year: 2014, role: "Casting Director", image: unforgettableImg },
     { title: "The Genius of Beauty", year: 2014, role: "Casting Director", image: geniusBeautyImg },
     { title: "Grand Masti", year: 2013, role: "Casting Director", image: grandMastiImg },
-    { title: "Sri Siddhartha Gautama", year: 2013, role: "Casting Director", image: siddharthaImg },
     { title: "Joker", year: 2012, role: "Casting Director", image: jokerImg },
     { title: "Society Kaam Se Gayi", year: 2011, role: "Casting Director", image: societyKaamImg },
     { title: "Double Dhamaal", year: 2011, role: "Casting Director", image: doubleDhamaalImg },
