@@ -54,7 +54,7 @@ const Index = () => {
             <img 
               src={logoMain} 
               alt="Bollywood Paathshaala by Shahid Hasan" 
-              className="h-46 w-auto mx-auto mb-8"
+              className="max-h-24 w-auto object-contain"
             />
           </div>
           
@@ -66,7 +66,7 @@ const Index = () => {
             <img
               src={cubicleeye}
               alt="Cubicle Eye Entertainment"
-              className="h-20 w-auto mx-auto"
+              className="max-h-20 w-auto object-contain"
             />
           </div>
           
