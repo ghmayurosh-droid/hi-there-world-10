@@ -150,15 +150,17 @@ const About = () => {
             <div>
               <h2 className="text-3xl font-bold text-primary mb-6">Meet Guest Lecturer- Nawazuddin Siddiqui</h2>
               <p className="text-foreground mb-4">
-                Siddiqui is best known for his roles in The Lunchbox (2013), which premiered as part of the International 
-                Critics' Week at the 2013 Cannes Film Festival and won him multiple awards, Manto (2018), for which his
-                groundbreaking performance won him Best Actor at the 2018 Asian Pacific Screen Awards[8] and Raman Raghav 2.0
-                for which he won the Fancine Malaga Award in Spain[9] and in Asia Pacific Screen Awards[10] both in the 
-                category of Best Actor. 
+                With over 15 years of experience in the film industry, Shahid Hasan has worked alongside 
+                renowned directors and actors in both Bollywood and regional cinema. His passion for nurturing 
+                new talent led him to establish Bollywood Paathshaala in Dubai.
               </p>
               <p className="text-foreground mb-4">
-                Nawazuddin Siddiqui is the only Actor in the world having 8 films officially 
-                selected and screened at the prestigious Cannes Film Festival.
+                Shahid's unique teaching methodology combines traditional acting techniques with modern 
+                industry practices, ensuring students are well-prepared for today's competitive entertainment landscape.
+              </p>
+              <p className="text-foreground">
+                His students have gone on to work in major film productions, television series, and 
+                commercial campaigns across the Middle East and India.
               </p>
             </div>
             <div className="flex justify-center">
