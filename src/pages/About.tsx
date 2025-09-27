@@ -116,7 +116,7 @@ const About = () => {
               <img 
                 src={irfanImg} 
                 alt="Irfan Hossein" 
-                className="h-56 w-56 object-cover rounded-full shadow-lg"
+                className="h-56 w-auto object-cover rounded-full shadow-lg"
               />
             </div>
           </div>
