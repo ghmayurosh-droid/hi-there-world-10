@@ -2,7 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Star, Users, Award, Clock } from "lucide-react";
 import shahidImg from "@/assets/shahid.png";
 import irfanImg from "@/assets/irfan.png";
-import aneezImg from "@/assets/aneez.png";
+import aneesImg from "@/assets/anees.png";
 import nawazImg from "@/assets/nawaz.png";
 import rmadhavanImg from "@/assets/rmadhavan.png";
 import sharmanImg from "@/assets/sharman.png";
@@ -153,7 +153,7 @@ const About = () => {
             </div>
             <div className="flex justify-center md:w-1/3 mt-6 md:mt-0">
               <img
-                src={aneezImg}
+                src={aneesImg}
                 alt="Anees Bazmee"
                 className="h-56 w-56 object-cover rounded-full shadow-lg"
               />
