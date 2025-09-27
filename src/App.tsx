@@ -9,7 +9,7 @@ import About from "./pages/About";
 import Filmography from "./pages/Filmography";
 import Contact from "./pages/Contact";
 import Testimonials from "./pages/Testimonials";
-import InAssociationwith from "./pages/InAssociationWith";
+import InAssociationWith from "./pages/InAssociationWith";
 import Register from "./pages/Register";
 import NotFound from "./pages/NotFound";
 
