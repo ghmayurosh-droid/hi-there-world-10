@@ -49,26 +49,28 @@ const Index = () => {
     <div>
       {/* Hero Section */}
       <section className="py-20 px-4">
-        <div className="container mx-auto text-center">
-          <div className="mb-8">
-            <img 
-              src={logoMain} 
-              alt="Bollywood Paathshaala by Shahid Hasan" 
-              className="h-44 w-auto mx-auto mb-8"
-            />
-          </div>
-          
-          {/* In Association With */}
-          <div className="mb-10">
-            <p className="text-muted-foreground text-lg mb-2">
-              In Association With
-            </p>
+        <div className="flex flex-col items-center mb-10">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-6">
+            {/* Main Logo */}
             <img
-              src={cubicleeye}
-              alt="Cubicle Eye Entertainment"
-              className="h-25 w-auto mx-auto"
+              src={logoMain}
+              alt="Bollywood Paathshaala by Shahid Hasan"
+              className="max-h-24 w-auto object-contain"
             />
+        
+            {/* Partner Logo with text */}
+            <div className="flex flex-col items-center">
+              <p className="text-muted-foreground text-lg mb-2">
+                In Association With
+              </p>
+              <img
+                src={cubicleeye}
+                alt="Cubicle Eye Entertainment"
+                className="max-h-20 w-auto object-contain"
+              />
+            </div>
           </div>
+        </div>
           
           <h1 className="text-5xl md:text-7xl font-bold text-primary mb-6">
             Your Bollywood 
