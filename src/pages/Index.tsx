@@ -3,7 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Link } from "react-router-dom";
 import { Star, Users, Calendar, Award, ArrowRight } from "lucide-react";
 import logoMain from "@/assets/BP1.png";
-import cubicleeye from "@/assets/cubicleeye.jpg";
+import cubicleeye from "@/assets/cubicleeye2.jpg";
 
 const Index = () => {
   const features = [
