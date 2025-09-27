@@ -150,17 +150,13 @@ const About = () => {
             <div>
               <h2 className="text-3xl font-bold text-primary mb-6">Meet Guest Lecturer- Nawazuddin Siddiqui</h2>
               <p className="text-foreground mb-4">
-                With over 15 years of experience in the film industry, Shahid Hasan has worked alongside 
-                renowned directors and actors in both Bollywood and regional cinema. His passion for nurturing 
-                new talent led him to establish Bollywood Paathshaala in Dubai.
+                Siddiqui is best known for his roles in The Lunchbox (2013), which premiered as part of the International Critics' Week at the 2013 Cannes Film Festival 
+                and won him multiple awards, Manto (2018), for which his groundbreaking performance won him Best Actor at the 2018 Asian Pacific Screen Awards[8] and Raman Raghav 2.0 
+                for which he won the Fancine Malaga Award in Spain[9] and in Asia Pacific Screen Awards[10] both in the category of Best Actor. 
+                Nawazuddin Siddiqui is the only Actor in the world having 8 films officially selected and screened at the prestigious Cannes Film Festival.
               </p>
               <p className="text-foreground mb-4">
-                Shahid's unique teaching methodology combines traditional acting techniques with modern 
-                industry practices, ensuring students are well-prepared for today's competitive entertainment landscape.
-              </p>
-              <p className="text-foreground">
-                His students have gone on to work in major film productions, television series, and 
-                commercial campaigns across the Middle East and India.
+                Nawazuddin Siddiqui is the only Actor in the world having 8 films officially selected and screened at the prestigious Cannes Film Festival.
               </p>
             </div>
             <div className="flex justify-center">
@@ -180,17 +176,15 @@ const About = () => {
             <div>
               <h2 className="text-3xl font-bold text-primary mb-6">Meet Guest Lecturer- R Madhavan</h2>
               <p className="text-foreground mb-4">
-                With over 15 years of experience in the film industry, Shahid Hasan has worked alongside 
-                renowned directors and actors in both Bollywood and regional cinema. His passion for nurturing 
-                new talent led him to establish Bollywood Paathshaala in Dubai.
+                Madhavan is an Indian actor, screenwriter, film producer and film director who predominantly works in Tamil and Hindi cinema. 
+                He has won one National Film Award, five Filmfare Awards South, two Tamil Nadu State Film Awards and five SIIMA Awards. As of 2023, Madhavan is the President of FTII, Pune
               </p>
               <p className="text-foreground mb-4">
-                Shahid's unique teaching methodology combines traditional acting techniques with modern 
-                industry practices, ensuring students are well-prepared for today's competitive entertainment landscape.
+                In addition to his acting career, Madhavan has worked as a writer on his films, hosted television programs and has been a 
+                prominent celebrity endorser for brands and products.[20] 
               </p>
               <p className="text-foreground">
-                His students have gone on to work in major film productions, television series, and 
-                commercial campaigns across the Middle East and India.
+                He has also worked as a film producer, first making Evano Oruvan with Leukos Films, before setting up Tricolour Films to produce Saala Khadoos (2016).
               </p>
             </div>
             <div className="flex justify-center">
@@ -210,17 +204,16 @@ const About = () => {
             <div>
               <h2 className="text-3xl font-bold text-primary mb-6">Meet Guest Lecturer- Sharman Joshi</h2>
               <p className="text-foreground mb-4">
-                With over 15 years of experience in the film industry, Shahid Hasan has worked alongside 
-                renowned directors and actors in both Bollywood and regional cinema. His passion for nurturing 
-                new talent led him to establish Bollywood Paathshaala in Dubai.
+                Sharman Joshi, born in Mumbai, India, is a talented Indian actor known for his versatile performances in Bollywood films. 
+                Hailing from a family with a strong connection to the Indian entertainment industry, Sharman embarked on his acting journey and established himself as a reliable and skilled actor.
               </p>
               <p className="text-foreground mb-4">
-                Shahid's unique teaching methodology combines traditional acting techniques with modern 
-                industry practices, ensuring students are well-prepared for today's competitive entertainment landscape.
+                Sharman Joshi comes from a family with a theatrical background,Sharman initially ventured into theater, 
+                where he honed his acting skills before making his mark in the film industry. In addition to his successful film career, 
+                Sharman Joshi has been associated with various theater productions. He has also ventured into digital platforms with web series like "Baarish" (2019).
               </p>
               <p className="text-foreground">
-                His students have gone on to work in major film productions, television series, and 
-                commercial campaigns across the Middle East and India.
+                Known for his down-to-earth demeanor and dedication to his craft, Sharman Joshi continues to be a respected figure in the Indian entertainment industry.
               </p>
             </div>
             <div className="flex justify-center">
