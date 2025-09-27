@@ -2,9 +2,9 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Award, Users, Star } from "lucide-react";
 
 // Import partner logos or headshots
-import partner1Img from "@/assets/coming-soon.jpg";
-import partner2Img from "@/assets/coming-soon.jpg";
-import partner3Img from "@/assets/coming-soon.jpg";
+import cubicleeyeImg from "@/assets/cubicleeye.jpg";
+import satishImg from "@/assets/satish.jpg";
+import meeitkohliImg from "@/assets/meeitkohli.jpg";
 import partner4Img from "@/assets/coming-soon.jpg";
 
 const InAssociation = () => {
@@ -29,7 +29,7 @@ const InAssociation = () => {
           <div className="flex flex-col md:flex-row md:items-center md:gap-12">
             <div className="flex-1">
               <h2 className="text-3xl font-bold text-primary mb-6">
-                Partner Studio One
+                Cubicle Eye Entertainment
               </h2>
               <p className="text-foreground mb-4">
                 Studio One has been a pioneer in film production, known for
@@ -40,8 +40,8 @@ const InAssociation = () => {
             </div>
             <div className="flex justify-center">
               <img
-                src={partner1Img}
-                alt="Partner Studio One"
+                src={cubicleeyeImg}
+                alt="Cubicle Eye Entertainment"
                 className="h-56 w-56 object-cover rounded-full shadow-lg"
               />
             </div>
@@ -53,7 +53,7 @@ const InAssociation = () => {
           <div className="flex flex-col md:flex-row md:items-center md:gap-12">
             <div className="flex-1">
               <h2 className="text-3xl font-bold text-primary mb-6">
-                Partner House Two
+                Satish Angolkar
               </h2>
               <p className="text-foreground mb-4">
                 House Two is a leading distributor, ensuring that our films reach
@@ -63,8 +63,8 @@ const InAssociation = () => {
             </div>
             <div className="flex justify-center">
               <img
-                src={partner2Img}
-                alt="Partner House Two"
+                src={satishImg}
+                alt="Satish Angolkar"
                 className="h-56 w-56 object-cover rounded-full shadow-lg"
               />
             </div>
@@ -76,7 +76,7 @@ const InAssociation = () => {
           <div className="flex flex-col md:flex-row md:items-center md:gap-12">
             <div className="flex-1">
               <h2 className="text-3xl font-bold text-primary mb-6">
-                Partner Agency Three
+                Meeit Kohli
               </h2>
               <p className="text-foreground mb-4">
                 Agency Three has played a key role in talent discovery and
@@ -86,8 +86,8 @@ const InAssociation = () => {
             </div>
             <div className="flex justify-center">
               <img
-                src={partner3Img}
-                alt="Partner Agency Three"
+                src={meeitkohliImg}
+                alt="Meeit Kohli"
                 className="h-56 w-56 object-cover rounded-full shadow-lg"
               />
             </div>
