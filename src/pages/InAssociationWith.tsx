@@ -1,11 +1,11 @@
 import { Card, CardContent } from "@/components/ui/card";
 
 // Example partner logos/images
-import partner1Img from "@/assets/partner1.jpg";
-import partner2Img from "@/assets/partner2.jpg";
-import partner3Img from "@/assets/partner3.jpg";
-import partner4Img from "@/assets/partner4.jpg";
-import partner5Img from "@/assets/partner5.jpg";
+import partner1Img from "@/assets/coming-soon.jpg";
+import partner2Img from "@/assets/coming-soon.jpg";
+import partner3Img from "@/assets/coming-soon.jpg";
+import partner4Img from "@/assets/coming-soon.jpg";
+import partner5Img from "@/assets/coming-soon.jpg";
 
 const InAssociation = () => {
   const partners = [
