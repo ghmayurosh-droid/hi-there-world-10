@@ -95,17 +95,18 @@ const About = () => {
             <div>
               <h2 className="text-3xl font-bold text-primary mb-6">Meet Mentor- Irfan Hossein</h2>
               <p className="text-foreground mb-4">
-                With over 15 years of experience in the film industry, Shahid Hasan has worked alongside 
-                renowned directors and actors in both Bollywood and regional cinema. His passion for nurturing 
-                new talent led him to establish Bollywood Paathshaala in Dubai.
+                Irfan, a notable performance designer for many successful films and television shows, and Programme Director with Actorism®️, 
+                has character-trained countless actors over the years, many of whom have won awards from their performances.  
               </p>
               <p className="text-foreground mb-4">
-                Shahid's unique teaching methodology combines traditional acting techniques with modern 
-                industry practices, ensuring students are well-prepared for today's competitive entertainment landscape.
+                Some of his actors have trained with highly reputable acting schools in India and abroad, others are absolute beginners, 
+                but it is Irfan’s in-depth coaching which has made the difference from a good into a great, award-winning performance, whatever the level or background of his students. 
+                Great acting should not seem like acting at all.  
               </p>
               <p className="text-foreground">
-                His students have gone on to work in major film productions, television series, and 
-                commercial campaigns across the Middle East and India.
+                It needs to be perfected to make it look natural and believable “the toughest thing in acting is to act normal”.  
+                Some talent may be enough to get the average actor through the door, but to make a successful, sustainable career from acting requires specialised coaching, commitment and passion.  
+                This is where Actorism®️ and Irfan Hossein steps in.
               </p>
             </div>
             <div className="flex justify-center">
