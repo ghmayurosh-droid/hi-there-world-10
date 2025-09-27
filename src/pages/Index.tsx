@@ -49,8 +49,8 @@ const Index = () => {
     <div>
       {/* Hero Section */}
       <section className="py-20 px-4">
-        <div className="flex flex-col items-center mb-10">
-          <div className="flex flex-col md:flex-row items-center justify-center gap-6">
+        
+        <div className="flex flex-col md:flex-row items-center justify-center gap-6">
             {/* Main Logo */}
             <img
               src={logoMain}
