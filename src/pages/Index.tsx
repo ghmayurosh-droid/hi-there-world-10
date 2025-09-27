@@ -3,6 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Link } from "react-router-dom";
 import { Star, Users, Calendar, Award, ArrowRight } from "lucide-react";
 import logoMain from "@/assets/BP1.png";
+import cubicleeye from "@/assets/cubicleeye.jpg";
 
 const Index = () => {
   const features = [
@@ -54,6 +55,18 @@ const Index = () => {
               src={logoMain} 
               alt="Bollywood Paathshaala by Shahid Hasan" 
               className="h-46 w-auto mx-auto mb-8"
+            />
+          </div>
+          
+          {/* In Association With */}
+          <div className="mb-10">
+            <p className="text-muted-foreground text-lg mb-2">
+              In Association With
+            </p>
+            <img
+              src={cubicleeye}
+              alt="Cubicle Eye Entertainment"
+              className="h-20 w-auto mx-auto"
             />
           </div>
           
