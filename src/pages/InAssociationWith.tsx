@@ -8,11 +8,6 @@ import partner3Img from "@/assets/coming-soon.jpg";
 import partner4Img from "@/assets/coming-soon.jpg";
 
 const InAssociation = () => {
-  const stats = [
-    { icon: Users, label: "Global Partners", value: "25+" },
-    { icon: Award, label: "Awards Won Together", value: "10+" },
-    { icon: Star, label: "Years of Collaboration", value: "15+" },
-  ];
 
   return (
     <div className="py-20">
@@ -27,19 +22,6 @@ const InAssociation = () => {
             houses, studios, and creative professionals who share our vision of
             redefining cinema.
           </p>
-        </div>
-
-        {/* Stats Section */}
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-6 mb-16">
-          {stats.map((stat, index) => (
-            <Card key={index} className="text-center bg-card border-border">
-              <CardContent className="p-6">
-                <stat.icon className="h-8 w-8 text-primary mx-auto mb-3" />
-                <div className="text-2xl font-bold text-primary mb-1">{stat.value}</div>
-                <div className="text-sm text-muted-foreground">{stat.label}</div>
-              </CardContent>
-            </Card>
-          ))}
         </div>
 
         {/* Partner 1 */}
