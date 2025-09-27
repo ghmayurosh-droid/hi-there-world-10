@@ -105,12 +105,6 @@ const About = () => {
                 whatever the level or background of his students. 
                 Great acting should not seem like acting at all.  
               </p>
-              <p className="text-foreground">
-                It needs to be perfected to make it look natural and believable “the toughest thing in acting is to act normal”.  
-                Some talent may be enough to get the average actor through the door, but to make a successful, sustainable career 
-                from acting requires specialised coaching, commitment and passion.  
-                This is where Actorism®️ and Irfan Hossein steps in.
-              </p>
             </div>
             <div className="flex justify-center">
               <img 
