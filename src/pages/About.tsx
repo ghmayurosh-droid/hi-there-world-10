@@ -95,17 +95,20 @@ const About = () => {
             <div>
               <h2 className="text-3xl font-bold text-primary mb-6">Meet Mentor- Irfan Hossein</h2>
               <p className="text-foreground mb-4">
-                Irfan, a notable performance designer for many successful films and television shows, and Programme Director with Actorism®️, 
+                Irfan, a notable performance designer for many successful films and television shows, 
+                and Programme Director with Actorism®️, 
                 has character-trained countless actors over the years, many of whom have won awards from their performances.  
               </p>
               <p className="text-foreground mb-4">
                 Some of his actors have trained with highly reputable acting schools in India and abroad, others are absolute beginners, 
-                but it is Irfan’s in-depth coaching which has made the difference from a good into a great, award-winning performance, whatever the level or background of his students. 
+                but it is Irfan’s in-depth coaching which has made the difference from a good into a great, award-winning performance, 
+                whatever the level or background of his students. 
                 Great acting should not seem like acting at all.  
               </p>
               <p className="text-foreground">
                 It needs to be perfected to make it look natural and believable “the toughest thing in acting is to act normal”.  
-                Some talent may be enough to get the average actor through the door, but to make a successful, sustainable career from acting requires specialised coaching, commitment and passion.  
+                Some talent may be enough to get the average actor through the door, but to make a successful, sustainable career 
+                from acting requires specialised coaching, commitment and passion.  
                 This is where Actorism®️ and Irfan Hossein steps in.
               </p>
             </div>
