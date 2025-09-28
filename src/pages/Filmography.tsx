@@ -28,6 +28,8 @@ import thankYouImg from "@/assets/thank-you.jpg";
 import noProblemImg from "@/assets/no-problem.jpg";
 import kheleinHumImg from "@/assets/khelein-hum-jee-jaan-sey.jpg";
 import actionReplayyImg from "@/assets/action-replayy.jpg";
+import godfatherImg from "@/assets/godfather.jpg";
+
 
 const Filmography = () => {
   // ----------------- Upcoming Films -----------------
@@ -50,6 +52,7 @@ const Filmography = () => {
     { title: "Riwaj", year: 2025, role: "Casting Director", image: riwajImg },
     { title: "Inspector Avinash (TV Series)", year: 2023, role: "Casting Director", image: inspectorAvinashImg },
     { title: "Thank God", year: 2022, role: "Casting Director", image: thankGodImg },
+    { title: "GodFather", year: 2022, role: "Casting Director", image: godfatherImg },
     { title: "Mere Desh Ki Dharti", year: 2022, role: "Casting Director", image: mereDeshImg },
     { title: "Pagalpanti", year: 2019, role: "Casting Director", image: pagalpantiImg },
     { title: "Total Dhamaal", year: 2019, role: "Casting Director", image: totalDhamaalImg },
