@@ -32,10 +32,14 @@ const InAssociation = () => {
                 Cubicle Eye Entertainment
               </h2>
               <p className="text-foreground mb-4">
-                Studio One has been a pioneer in film production, known for
-                delivering critically acclaimed projects across Bollywood and
-                international cinema. Their collaboration with us has brought
-                unforgettable stories to the big screen.
+                Cubicle Eye Entertainment is a production house devoted to bringing powerful stories to life. 
+                With a vision rooted in creativity and authenticity, we aim to present narratives that are not 
+                only entertaining but also thought-provoking and emotionally resonant.
+                Every project we take on is a new journey—an exploration of fresh perspectives, 
+                untold experiences, and the limitless possibilities of cinema. Our mission is to craft
+                films that reflect diverse voices, unique visions, and stories that connect deeply with audiences.
+                At Cubicle Eye Entertainment, storytelling is more than just production—it’s about sparking 
+                imagination, inspiring change, and celebrating the magic of human expression on screen.
               </p>
             </div>
             <div className="flex justify-center">
