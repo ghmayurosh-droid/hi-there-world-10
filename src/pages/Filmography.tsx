@@ -41,7 +41,7 @@ const Filmography = () => {
     { title: "Inspector Avinash: The Return of Mahakaal", year: null, role: "Casting Director", image: comingsoonImg },
     { title: "Kashmir - Enigma of Paradise", year: null, role: "Casting Director", image: comingsoonImg },
     { title: "Ek Saath Do Do", year: null, role: "Casting Director", image: comingsoonImg },
-    { title: "Victoe Betaal", year: null, role: "Casting Director", image: comingsoonImg },
+    { title: "Victor Betaal", year: null, role: "Casting Director", image: comingsoonImg },
     { title: "Ghutann", year: null, role: "Casting Director", image: comingsoonImg },
     { title: "Punters", year: null, role: "Casting Director", image: comingsoonImg },
   ];
