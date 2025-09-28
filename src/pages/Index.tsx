@@ -48,9 +48,9 @@ const Index = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="py-16 px-4">
+      <section className="py-20 px-4">
         <div className="container mx-auto text-center">
-          <div className="flex flex-col md:flex-row items-center justify-center gap-8 mb-10">
+          <div className="mb-8">
             <img 
               src={logoMain} 
               alt="Bollywood Paathshaala by Shahid Hasan" 
@@ -59,7 +59,7 @@ const Index = () => {
           </div>
           
           {/* In Association With */}
-          <div className="flex flex-col items-center">
+          <div className="mb-10">
             <p className="text-muted-foreground text-lg mb-2">
               In Association With
             </p>
