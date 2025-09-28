@@ -90,9 +90,13 @@ const InAssociation = () => {
                 Meeit Kohli
               </h2>
               <p className="text-foreground mb-4">
-                Agency Three has played a key role in talent discovery and
-                management, connecting us with some of the brightest stars of
-                today. Their vision aligns with ours in nurturing excellence.
+                Meeit Kohli is a seasoned Creative Producer & Director with 17+ years of experience
+                shaping television, digital, and event content for leading names such as Zee TV, 
+                Star Plus, Disney Hotstar, MX Player, TLC, Alt Balaji, and Google US. Her career spans India,
+                UAE, Bahrain, and the USA, where she has delivered high-impact projects in content strategy,
+                production design, PR, and marketing, while leading large creative teams and 
+                cross-functional stakeholders.
+
               </p>
             </div>
             <div className="flex justify-center">
