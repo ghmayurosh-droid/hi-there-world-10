@@ -60,9 +60,16 @@ const InAssociation = () => {
                 Satish Angolkar
               </h2>
               <p className="text-foreground mb-4">
-                House Two is a leading distributor, ensuring that our films reach
-                audiences worldwide. Their expertise in global distribution has
-                expanded our footprint across continents.
+                At the heart of Cubicle Eye Entertainment is its founder, a passionate storyteller 
+                who lives and breathes the art of acting. With a deep commitment to cinema, he combines
+                his expertise as a producer with his lifelong fascination for performance and the craft of actors.
+                Guided by an enduring love for films, he envisions Cubicle Eye Entertainment as a canvas 
+                where stories are told with authenticity, emotion, and artistic integrity.
+                His journey is shaped by a keen eye for talent and a profound appreciation 
+                of the nuances that make acting a timeless art. For him, every project is more 
+                than just production—it is an exploration of human emotion, creativity, and expression. 
+                Through Cubicle Eye Entertainment, he aspires to create meaningful films that inspire audiences 
+                and celebrate the transformative power of storytelling.
               </p>
             </div>
             <div className="flex justify-center">
@@ -92,29 +99,6 @@ const InAssociation = () => {
               <img
                 src={meeitkohliImg}
                 alt="Meeit Kohli"
-                className="h-56 w-56 object-cover rounded-full shadow-lg"
-              />
-            </div>
-          </div>
-        </div>
-
-        {/* Partner 4 */}
-        <div className="mb-16">
-          <div className="flex flex-col md:flex-row md:items-center md:gap-12">
-            <div className="flex-1">
-              <h2 className="text-3xl font-bold text-primary mb-6">
-                Partner Music Label Four
-              </h2>
-              <p className="text-foreground mb-4">
-                Label Four has collaborated with us on music that transcends
-                boundaries, creating soulful soundtracks that have defined
-                generations of moviegoers.
-              </p>
-            </div>
-            <div className="flex justify-center">
-              <img
-                src={partner4Img}
-                alt="Partner Music Label Four"
                 className="h-56 w-56 object-cover rounded-full shadow-lg"
               />
             </div>
