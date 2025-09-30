@@ -43,7 +43,7 @@ const About = () => {
         {/* Hero Section */}
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-6xl font-bold text-primary mb-6">
-            About Bollywood Paathshaala
+            About Bollywood Paathshala
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Discover the magic of Bollywood acting with Dubai's most
