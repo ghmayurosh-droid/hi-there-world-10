@@ -13,7 +13,7 @@ const Testimonials = () => {
     {
       name: "Arjun Kapoor",
       role: "Commercial Actor",
-      content: "The industry connections I made through Bollywood Paathshaala opened doors I never thought possible. Within 3 months of completing the course, I was cast in two major commercial campaigns.",
+      content: "The industry connections I made through Bollywood Paathshala opened doors I never thought possible. Within 3 months of completing the course, I was cast in two major commercial campaigns.",
       rating: 5,
       image: "🎬"
     },
@@ -34,7 +34,7 @@ const Testimonials = () => {
     {
       name: "Anita Desai",
       role: "Model turned Actress",
-      content: "Coming from a modeling background, I had no acting experience. The supportive environment and structured curriculum at Bollywood Paathshaala made the transition smooth and enjoyable.",
+      content: "Coming from a modeling background, I had no acting experience. The supportive environment and structured curriculum at Bollywood Paathshala made the transition smooth and enjoyable.",
       rating: 5,
       image: "✨"
     },
@@ -64,7 +64,7 @@ const Testimonials = () => {
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Hear from our talented alumni who have transformed their acting dreams into reality through 
-            Bollywood Paathshaala's comprehensive training program.
+            Bollywood Paathshala's comprehensive training program.
           </p>
         </div>
 
@@ -113,7 +113,7 @@ const Testimonials = () => {
         <div className="text-center bg-gradient-to-r from-primary/10 to-accent/10 rounded-lg p-12">
           <h2 className="text-3xl font-bold text-primary mb-4">Ready to Write Your Success Story?</h2>
           <p className="text-lg text-foreground mb-6 max-w-2xl mx-auto">
-            Join hundreds of successful actors who started their journey with Bollywood Paathshaala. 
+            Join hundreds of successful actors who started their journey with Bollywood Paathshala. 
             Your transformation begins with a single step.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
