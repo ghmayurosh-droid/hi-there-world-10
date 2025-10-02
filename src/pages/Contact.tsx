@@ -98,7 +98,7 @@ const Contact = () => {
               <CardContent>
                 <div className="w-full h-64 bg-muted rounded-lg flex items-center justify-center">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462560.6156400807!2d54.89760327218286!3d25.076262081367677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2s!4v1703181234567!5m2!1sen!2s"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.4768469725223!2d55.3295684!3d25.220859299999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43dabf340f3d%3A0xdd7141fb8dea90e6!2sAl%20Jaddaf%20Rotana%20Suite%20Hotel!5e0!3m2!1sen!2sus!4v1759437620508!5m2!1sen!2sus"
                     width="100%"
                     height="256"
                     style={{ border: 0 }}
