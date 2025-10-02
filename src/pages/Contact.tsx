@@ -60,7 +60,7 @@ const Contact = () => {
                   <MapPin className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                   <div>
                     <h3 className="font-semibold text-foreground">Location</h3>
-                    <p className="text-muted-foreground">Dubai, UAE</p>
+                    <p className="text-muted-foreground">Al Jaddaf Rotana Suite Hotel, Dubai, UAE</p>
                     <p className="text-muted-foreground text-sm">Exact location shared upon registration</p>
                   </div>
                 </div>
@@ -69,7 +69,7 @@ const Contact = () => {
                   <Phone className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                   <div>
                     <h3 className="font-semibold text-foreground">Phone</h3>
-                    <p className="text-muted-foreground">+971-XX-XXX-XXXX</p>
+                    <p className="text-muted-foreground">+971-52-348-3891</p>
                   </div>
                 </div>
                 
@@ -85,8 +85,7 @@ const Contact = () => {
                   <Clock className="h-6 w-6 text-primary mt-1 flex-shrink-0" />
                   <div>
                     <h3 className="font-semibold text-foreground">Workshop Hours</h3>
-                    <p className="text-muted-foreground">Weekends: 10:00 AM - 6:00 PM</p>
-                    <p className="text-muted-foreground">Weekdays: 7:00 PM - 10:00 PM</p>
+                    <p className="text-muted-foreground">7:00 PM - 10:00 PM</p>
                   </div>
                 </div>
               </CardContent>
