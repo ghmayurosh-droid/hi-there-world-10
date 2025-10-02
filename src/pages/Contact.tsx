@@ -61,7 +61,6 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold text-foreground">Location</h3>
                     <p className="text-muted-foreground">Al Jaddaf Rotana Suite Hotel, Dubai, UAE</p>
-                    <p className="text-muted-foreground text-sm">Exact location shared upon registration</p>
                   </div>
                 </div>
                 
