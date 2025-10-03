@@ -243,7 +243,7 @@ const Register = () => {
                 <div className="space-y-2">
                   <div className="flex items-center text-muted-foreground">
                     <Users className="h-4 w-4 mr-2 text-primary" />
-                    Small class sizes (max 12 students)
+                    Professional Mentorship
                   </div>
                   <div className="flex items-center text-muted-foreground">
                     <Award className="h-4 w-4 mr-2 text-primary" />
