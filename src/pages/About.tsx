@@ -4,7 +4,6 @@ import shahidImg from "@/assets/shahid.png";
 import irfanImg from "@/assets/irfan.png";
 import aneesImg from "@/assets/anees.png";
 import nawazImg from "@/assets/nawaz.png";
-import rmadhavanImg from "@/assets/rmadhavan.png";
 import sharmanImg from "@/assets/sharman.png";
 
 const About = () => {
@@ -185,41 +184,6 @@ const About = () => {
               <img
                 src={nawazImg}
                 alt="Nawaazuddin Siddiqui"
-                className="h-56 w-56 object-cover rounded-full shadow-lg"
-              />
-            </div>
-          </div>
-        </div>
-
-        {/* About R Madhavan */}
-        <div className="mb-16">
-          <div className="flex flex-col md:flex-row md:items-center md:gap-12">
-            <div className="flex-1 md:w-2/3">
-              <h2 className="text-3xl font-bold text-primary mb-6">
-                Meet Guest Lecturer – R Madhavan
-              </h2>
-              <p className="text-foreground mb-4">
-                Madhavan is an Indian actor, screenwriter, film producer and
-                director who predominantly works in Tamil and Hindi cinema. He
-                has won one National Film Award, five Filmfare Awards South, two
-                Tamil Nadu State Film Awards and five SIIMA Awards. As of 2023,
-                Madhavan is the President of FTII, Pune.
-              </p>
-              <p className="text-foreground mb-4">
-                In addition to his acting career, Madhavan has worked as a
-                writer on his films, hosted television programs and has been a
-                prominent celebrity endorser for brands and products.
-              </p>
-              <p className="text-foreground">
-                He has also worked as a film producer, first making *Evano
-                Oruvan* with Leukos Films, before setting up Tricolour Films to
-                produce *Saala Khadoos* (2016).
-              </p>
-            </div>
-            <div className="flex justify-center md:w-1/3 mt-6 md:mt-0">
-              <img
-                src={rmadhavanImg}
-                alt="R Madhavan"
                 className="h-56 w-56 object-cover rounded-full shadow-lg"
               />
             </div>
