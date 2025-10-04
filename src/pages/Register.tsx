@@ -219,7 +219,8 @@ const Register = () => {
                     }
                   />
                   <Label htmlFor="terms" className="text-sm">
-                    I agree to the terms and conditions and understand the workshop policies *
+                    I agree to the terms and conditions, and understand the workshop policies, 
+                    specifically confirming my understanding that this is an in-person workshop held in Dubai from October 24-30, 2025. *
                   </Label>
                 </div>
 
