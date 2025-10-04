@@ -81,7 +81,7 @@ const Index = () => {
             Master the art of acting, build industry connections, and unlock opportunities that await your talent. 
           </p>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
-            In-Person Workshop in Dubai • October 18 - 20, 2025
+            In-Person Workshop in Dubai • October 24 - 30, 2025
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
