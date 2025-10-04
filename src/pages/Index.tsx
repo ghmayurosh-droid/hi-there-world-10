@@ -78,7 +78,7 @@ const Index = () => {
           
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
             Transform your passion into profession with Dubai's premier Bollywood acting workshop. 
-            Master the art of acting, build industry connections, and unlock opportunities that await your talent.
+            Master the art of acting, build industry connections, and unlock opportunities that await your talent. <br> </br>
             
             Join us in-person in Dubai for this exclusive event, running from October 24 - 30, 2025.
           </p>
