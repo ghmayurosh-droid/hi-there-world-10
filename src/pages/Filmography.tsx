@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import aankhen2Img from "@/assets/aankhen2.png";
 import veerkiheerImg from "@/assets/veerkiheer.png";
 import puntersImg from "@/assets/punters.png";
-import masti4Img from "@/assets/Masti 4.png";
+import masti4Img from "@/assets/Masti4.png";
 import kashmirImg from "@/assets/kashmir.png";
 import inspectoravinashImg from "@/assets/inspectoravinash.png";
 import ghutannImg from "@/assets/ghutann.png";
