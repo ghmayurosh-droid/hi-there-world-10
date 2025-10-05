@@ -1,7 +1,16 @@
 import { Card, CardContent } from "@/components/ui/card";
 
 // ----------------- Upcoming Films Posters -----------------
-import comingsoonImg from "@/assets/coming-soon.jpg";
+import aankhen2Img from "@/assets/aankhen2.png";
+import veerkiheerImg from "@/assets/veerkiheer.png";
+import puntersImg from "@/assets/punters.png";
+import masti4Img from "@/assets/Masti 4.png";
+import kashmirImg from "@/assets/kashmir.png";
+import inspectoravinashImg from "@/assets/inspectoravinash.png";
+import ghutannImg from "@/assets/ghutann.png";
+import eksaathdodoImg from "@/assets/eksaathdodo.png";
+import dhamaal4Img from "@/assets/dhamaal4.png";
+import victorbetaalImg from "@/assets/victorbetaal.png";
 
 // ----------------- Previous Films Posters -----------------
 import mannuKyaKareggaImg from "@/assets/mannu-kya-karegga.jpg";
@@ -34,16 +43,16 @@ import godfatherImg from "@/assets/godfather.jpg";
 const Filmography = () => {
   // ----------------- Upcoming Films -----------------
   const upcomingFilms = [
-    { title: "Masti 4", year: 2025, role: "Casting Director", image: comingsoonImg },
-    { title: "Veer Ki Heer", year: 2025, role: "Casting Director", image: comingsoonImg },
-    { title: "Dhamaal 4", year: 2026, role: "Casting Director", image: comingsoonImg },
-    { title: "Aankhen 2", year: null, role: "Casting Director", image: comingsoonImg },
-    { title: "Inspector Avinash: The Return of Mahakaal", year: null, role: "Casting Director", image: comingsoonImg },
-    { title: "Kashmir - Enigma of Paradise", year: null, role: "Casting Director", image: comingsoonImg },
-    { title: "Ek Saath Do Do", year: null, role: "Casting Director", image: comingsoonImg },
-    { title: "Victor Betaal", year: null, role: "Casting Director", image: comingsoonImg },
-    { title: "Ghutann", year: null, role: "Casting Director", image: comingsoonImg },
-    { title: "Punters", year: null, role: "Casting Director", image: comingsoonImg },
+    { title: "Coming Soon", year: 2025, role: "Casting Director", image: masti4Img },
+    { title: "Coming Soon", year: 2025, role: "Casting Director", image: veerkiheerImg },
+    { title: "Coming Soon", year: 2026, role: "Casting Director", image: dhamaal4Img },
+    { title: "Coming Soon", year: null, role: "Casting Director", image: aankhen2Img },
+    { title: "Coming Soon", year: null, role: "Casting Director", image: inspectoravinashImg },
+    { title: "Coming Soon", year: null, role: "Casting Director", image: kashmirImg },
+    { title: "Coming Soon", year: null, role: "Casting Director", image: eksaathdodoImg },
+    { title: "Coming Soon", year: null, role: "Casting Director", image: victorbetaalImg },
+    { title: "Coming Soon", year: null, role: "Casting Director", image: ghutannImg },
+    { title: "Coming Soon", year: null, role: "Casting Director", image: puntersImg },
   ];
 
   // ----------------- Previous Films -----------------
