@@ -67,6 +67,7 @@ export default {
         'gradient-accent': 'var(--gradient-accent)',
         'gradient-dark': 'var(--gradient-dark)',
         'gradient-subtle': 'var(--gradient-subtle)',
+        'gradient-warm': 'var(--gradient-warm)',
       },
       boxShadow: {
         'glow': 'var(--shadow-glow)',

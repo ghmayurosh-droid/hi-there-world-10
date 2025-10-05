@@ -11,22 +11,22 @@ All colors MUST be HSL.
 @layer base {
   :root {
     /* Bollywood Paathshaala theme colors - inspired by mustard yellow speech bubble logo */
-    --background: 0 0% 98%; /* Off-white background #FAFAFA */
+    --background: 39 100% 94%; /* Warm Beige #FFF5E1 - soft neutral base */
     --foreground: 0 0% 0%; /* Black text #000000 */
 
-    --card: 0 0% 100%; /* White cards */
+    --card: 39 56% 88%; /* Light Taupe #F2E5CF - warm card background */
     --card-foreground: 0 0% 0%; /* Black text on cards */
 
-    --popover: 0 0% 100%; /* White popover */
+    --popover: 39 56% 88%; /* Light Taupe for popovers */
     --popover-foreground: 0 0% 0%; /* Black text */
 
     --primary: 45 90% 63%; /* Mustard Yellow #F6C344 - for buttons, highlights */
     --primary-foreground: 0 0% 0%; /* Black text on yellow */
 
-    --secondary: 0 0% 94%; /* Light gray #F0F0F0 */
-    --secondary-foreground: 0 0% 0%; /* Black text */
+    --secondary: 0 0% 0%; /* Black #000000 - for strong contrast */
+    --secondary-foreground: 45 90% 63%; /* Yellow text on black */
 
-    --muted: 0 0% 94%; /* Light gray for subtle backgrounds */
+    --muted: 39 70% 90%; /* Lighter warm tone for subtle backgrounds */
     --muted-foreground: 0 0% 35%; /* Medium gray for secondary text */
 
     --accent: 0 68% 47%; /* Deep Red #C62828 - for hover states */
@@ -35,7 +35,7 @@ All colors MUST be HSL.
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 0 0% 90%; /* Light gray border */
+    --border: 39 40% 75%; /* Warm taupe border */
     --input: 0 0% 100%; /* White input background */
     --ring: 45 90% 63%; /* Mustard yellow focus ring */
 
@@ -54,7 +54,8 @@ All colors MUST be HSL.
     --gradient-primary: linear-gradient(135deg, hsl(45 90% 63%), hsl(45 95% 70%));
     --gradient-accent: linear-gradient(135deg, hsl(45 90% 63%), hsl(0 68% 47%));
     --gradient-dark: linear-gradient(135deg, hsl(0 0% 0%), hsl(0 0% 15%));
-    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 98%), hsl(0 0% 94%));
+    --gradient-subtle: linear-gradient(180deg, hsl(39 100% 94%), hsl(39 56% 88%));
+    --gradient-warm: linear-gradient(180deg, hsl(39 100% 96%), hsl(39 100% 94%));
     
     /* Shadows - soft and elegant */
     --shadow-glow: 0 4px 20px hsl(45 90% 63% / 0.25);

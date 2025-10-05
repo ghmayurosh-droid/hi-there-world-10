@@ -10,7 +10,7 @@ import partner4Img from "@/assets/coming-soon.jpg";
 const InAssociation = () => {
 
   return (
-    <div className="py-20">
+    <div className="py-20 bg-gradient-subtle">
       <div className="container mx-auto px-4">
         {/* Hero Section */}
         <div className="text-center mb-16">
@@ -110,7 +110,7 @@ const InAssociation = () => {
         </div>
 
         {/* Closing Note */}
-        <div className="text-center bg-gradient-to-r from-primary/10 to-accent/10 rounded-lg p-12">
+        <div className="text-center bg-gradient-warm rounded-lg p-12 shadow-card">
           <h2 className="text-3xl font-bold text-primary mb-6">
             Together Towards Excellence
           </h2>

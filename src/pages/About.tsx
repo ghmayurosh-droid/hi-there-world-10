@@ -37,7 +37,7 @@ const About = () => {
   ];
 
   return (
-    <div className="py-20">
+    <div className="py-20 bg-gradient-subtle">
       <div className="container mx-auto px-4">
         {/* Hero Section */}
         <div className="text-center mb-16">
@@ -244,7 +244,7 @@ const About = () => {
         </div>
 
         {/* Mission Statement */}
-        <div className="text-center bg-gradient-to-r from-primary/10 to-accent/10 rounded-lg p-12">
+        <div className="text-center bg-gradient-warm rounded-lg p-12 shadow-card">
           <h2 className="text-3xl font-bold text-primary mb-6">Our Mission</h2>
           <p className="text-lg text-foreground max-w-4xl mx-auto">
             To provide aspiring actors in Dubai with world-class training,
