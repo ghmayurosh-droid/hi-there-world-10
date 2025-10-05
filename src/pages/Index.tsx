@@ -48,19 +48,25 @@ const Index = () => {
   return (
     <div>
       {/* Hero Section */}
-        <section className="py-8 md:py-12 px-6 bg-transparent flex flex-col items-center justify-center">
-          <img
-            src={logoMain}
-            alt="Bollywood Paathshaala by Shahid Hasan"
-            className="max-h-32 md:max-h-40 w-auto mx-auto mb-4 object-contain"
-          />
+      <section className="py-20 px-6">
+        <div className="container mx-auto text-center">
+          <div className="mb-8">
+            <img 
+              src={logoMain} 
+              alt="Bollywood Paathshaala by Shahid Hasan" 
+              className="h-46 w-auto mx-auto mb-8"
+            />
+          </div>
           
-          <div className="mb-6 text-center">
-            <p className="text-muted-foreground text-lg mb-2">In Association With</p>
+          {/* In Association With */}
+          <div className="mb-10">
+            <p className="text-muted-foreground text-lg mb-2">
+              In Association With
+            </p>
             <img
               src={cubicleeye}
               alt="Cubicle Eye Entertainment"
-              className="h-16 w-auto mx-auto"
+              className="h-20 w-auto mx-auto"
             />
           </div>
           
