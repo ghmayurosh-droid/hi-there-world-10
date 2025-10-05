@@ -84,7 +84,7 @@ const Register = () => {
   };
 
   return (
-    <div className="py-20">
+    <div className="py-20 bg-gradient-subtle">
       <div className="container mx-auto px-4">
         {/* Hero Section */}
         <div className="text-center mb-16">

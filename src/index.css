@@ -10,53 +10,57 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Bollywood theme colors */
-    --background: 0 0% 0%; /* Black background */
-    --foreground: 0 0% 100%; /* White text */
+    /* Bollywood Paathshaala theme colors - inspired by mustard yellow speech bubble logo */
+    --background: 39 100% 94%; /* Warm Beige #FFF5E1 - soft neutral base */
+    --foreground: 0 0% 0%; /* Black text #000000 */
 
-    --card: 0 0% 5%; /* Very dark gray cards */
-    --card-foreground: 0 0% 100%;
+    --card: 39 56% 88%; /* Light Taupe #F2E5CF - warm card background */
+    --card-foreground: 0 0% 0%; /* Black text on cards */
 
-    --popover: 0 0% 5%;
-    --popover-foreground: 0 0% 100%;
+    --popover: 39 56% 88%; /* Light Taupe for popovers */
+    --popover-foreground: 0 0% 0%; /* Black text */
 
-    --primary: 45 100% 65%; /* Bright yellow for headers */
+    --primary: 45 90% 63%; /* Mustard Yellow #F6C344 - for buttons, highlights */
     --primary-foreground: 0 0% 0%; /* Black text on yellow */
 
-    --secondary: 45 100% 40%; /* Darker yellow */
-    --secondary-foreground: 0 0% 0%;
+    --secondary: 0 0% 0%; /* Black #000000 - for strong contrast */
+    --secondary-foreground: 45 90% 63%; /* Yellow text on black */
 
-    --muted: 0 0% 15%; /* Dark gray */
-    --muted-foreground: 0 0% 70%; /* Light gray */
+    --muted: 39 70% 90%; /* Lighter warm tone for subtle backgrounds */
+    --muted-foreground: 0 0% 35%; /* Medium gray for secondary text */
 
-    --accent: 45 100% 60%; /* Gold accent */
-    --accent-foreground: 0 0% 0%;
+    --accent: 0 68% 47%; /* Deep Red #C62828 - for hover states */
+    --accent-foreground: 0 0% 100%; /* White text on red */
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 0 0% 20%; /* Dark border */
-    --input: 0 0% 10%; /* Dark input background */
-    --ring: 45 100% 50%; /* Yellow focus ring */
+    --border: 39 40% 75%; /* Warm taupe border */
+    --input: 0 0% 100%; /* White input background */
+    --ring: 45 90% 63%; /* Mustard yellow focus ring */
 
     --radius: 0.75rem;
 
     --sidebar-background: 0 0% 5%;
     --sidebar-foreground: 0 0% 100%;
-    --sidebar-primary: 45 100% 50%;
+    --sidebar-primary: 45 90% 63%;
     --sidebar-primary-foreground: 0 0% 0%;
     --sidebar-accent: 0 0% 10%;
     --sidebar-accent-foreground: 0 0% 100%;
     --sidebar-border: 0 0% 20%;
-    --sidebar-ring: 45 100% 50%;
+    --sidebar-ring: 45 90% 63%;
     
-    /* Custom gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(45 100% 50%), hsl(45 100% 60%));
-    --gradient-dark: linear-gradient(135deg, hsl(0 0% 0%), hsl(0 0% 10%));
+    /* Custom gradients - speech bubble inspired */
+    --gradient-primary: linear-gradient(135deg, hsl(45 90% 63%), hsl(45 95% 70%));
+    --gradient-accent: linear-gradient(135deg, hsl(45 90% 63%), hsl(0 68% 47%));
+    --gradient-dark: linear-gradient(135deg, hsl(0 0% 0%), hsl(0 0% 15%));
+    --gradient-subtle: linear-gradient(180deg, hsl(39 100% 94%), hsl(39 56% 88%));
+    --gradient-warm: linear-gradient(180deg, hsl(39 100% 96%), hsl(39 100% 94%));
     
-    /* Shadows */
-    --shadow-glow: 0 0 30px hsl(45 100% 50% / 0.3);
-    --shadow-card: 0 10px 30px -10px hsl(0 0% 0% / 0.5);
+    /* Shadows - soft and elegant */
+    --shadow-glow: 0 4px 20px hsl(45 90% 63% / 0.25);
+    --shadow-card: 0 2px 12px hsl(0 0% 0% / 0.08);
+    --shadow-elevated: 0 8px 30px hsl(0 0% 0% / 0.12);
   }
 }
 
@@ -69,5 +73,63 @@ All colors MUST be HSL.
     @apply bg-background text-foreground;
     font-family: 'Inter', system-ui, sans-serif;
     font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', system-ui, sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+}
+
+@layer utilities {
+  /* Fade-in animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Slide-up animation */
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Pop hover effect */
+  @keyframes pop {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.6s ease-out forwards;
+  }
+
+  .animate-slide-up {
+    animation: slideUp 0.8s ease-out forwards;
+  }
+
+  .hover-pop:hover {
+    animation: pop 0.3s ease-in-out;
+  }
+
+  .transition-smooth {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
 }

@@ -48,7 +48,7 @@ const Index = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="py-20 px-4">
+      <section className="py-20 px-4 bg-gradient-warm animate-fade-in">
         <div className="container mx-auto text-center">
           <div className="mb-8">
             <img 
@@ -98,7 +98,7 @@ const Index = () => {
       </section>
 
       {/* Features Section */}
-      <section className="py-20 px-4 bg-card">
+      <section className="py-20 px-4 bg-card animate-slide-up">
         <div className="container mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-primary mb-4">Why Choose Bollywood Paathshala?</h2>
@@ -122,7 +122,7 @@ const Index = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 px-4 bg-gradient-to-r from-primary/10 to-accent/10">
+      <section className="py-20 px-4 bg-gradient-warm">
         <div className="container mx-auto text-center">
           <h2 className="text-4xl font-bold text-primary mb-6">Ready to Begin Your Transformation?</h2>
           <p className="text-xl text-foreground mb-8 max-w-2xl mx-auto">

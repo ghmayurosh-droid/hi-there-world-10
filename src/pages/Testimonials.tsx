@@ -11,8 +11,8 @@ const Testimonials = () => {
       image: "🎭"
     },
     {
-      name: "Arjun Kapoor",
-      role: "Commercial Actor",
+      name: "Arjun Kumar",
+      role: "Actor",
       content: "The industry connections I made through Bollywood Paathshala opened doors I never thought possible. Within 3 months of completing the course, I was cast in two major commercial campaigns.",
       rating: 5,
       image: "🎬"
@@ -55,7 +55,7 @@ const Testimonials = () => {
   ];
 
   return (
-    <div className="py-20">
+    <div className="py-20 bg-gradient-warm">
       <div className="container mx-auto px-4">
         {/* Hero Section */}
         <div className="text-center mb-16">
@@ -110,7 +110,7 @@ const Testimonials = () => {
         </div>
 
         {/* Call to Action */}
-        <div className="text-center bg-gradient-to-r from-primary/10 to-accent/10 rounded-lg p-12">
+        <div className="text-center bg-card rounded-lg p-12 shadow-elevated">
           <h2 className="text-3xl font-bold text-primary mb-4">Ready to Write Your Success Story?</h2>
           <p className="text-lg text-foreground mb-6 max-w-2xl mx-auto">
             Join hundreds of successful actors who started their journey with Bollywood Paathshala. 
