@@ -48,7 +48,7 @@ const Index = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="py-20 px-6">
+      <section className="py-8 md:py-12 px-6 text-center">
         <div className="container mx-auto text-center">
           <div className="mb-8">
             <img 
