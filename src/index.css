@@ -11,33 +11,33 @@ All colors MUST be HSL.
 @layer base {
   :root {
     /* Bollywood theme colors */
-    --background: 0 0% 0%; /* Black background */
-    --foreground: 0 0% 100%; /* White text */
+    --background: 45 100% 50%; /* Bright yellow background */
+    --foreground: 0 0% 0%; /* Black text */
 
-    --card: 0 0% 5%; /* Very dark gray cards */
-    --card-foreground: 0 0% 100%;
+    --card: 45 100% 55%; /* Slightly lighter yellow cards */
+    --card-foreground: 0 0% 0%;
 
-    --popover: 0 0% 5%;
-    --popover-foreground: 0 0% 100%;
+    --popover: 45 100% 55%;
+    --popover-foreground: 0 0% 0%;
 
-    --primary: 45 100% 65%; /* Bright yellow for headers */
-    --primary-foreground: 0 0% 0%; /* Black text on yellow */
+    --primary: 0 0% 100%; /* White for headers */
+    --primary-foreground: 0 0% 0%; /* Black text on white */
 
     --secondary: 45 100% 40%; /* Darker yellow */
     --secondary-foreground: 0 0% 0%;
 
-    --muted: 0 0% 15%; /* Dark gray */
-    --muted-foreground: 0 0% 70%; /* Light gray */
+    --muted: 45 100% 60%; /* Lighter yellow */
+    --muted-foreground: 0 0% 20%; /* Dark gray */
 
-    --accent: 45 100% 60%; /* Gold accent */
-    --accent-foreground: 0 0% 0%;
+    --accent: 45 100% 45%; /* Darker yellow accent */
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 0 0% 20%; /* Dark border */
-    --input: 0 0% 10%; /* Dark input background */
-    --ring: 45 100% 50%; /* Yellow focus ring */
+    --border: 45 80% 40%; /* Darker yellow border */
+    --input: 45 100% 95%; /* Very light yellow input */
+    --ring: 45 100% 40%; /* Darker yellow focus ring */
 
     --radius: 0.75rem;
 
