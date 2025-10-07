@@ -11,8 +11,8 @@ const Testimonials = () => {
       image: "🎭"
     },
     {
-      name: "Arjun Kapoor",
-      role: "Commercial Actor",
+      name: "Arjun Kumar",
+      role: "Actor",
       content: "The industry connections I made through Bollywood Paathshala opened doors I never thought possible. Within 3 months of completing the course, I was cast in two major commercial campaigns.",
       rating: 5,
       image: "🎬"
