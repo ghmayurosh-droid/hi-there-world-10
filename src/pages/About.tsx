@@ -4,6 +4,7 @@ import shahidImg from "@/assets/shahid.png";
 import irfanImg from "@/assets/irfan.png";
 import aneesImg from "@/assets/anees.png";
 import nawazImg from "@/assets/nawaz.png";
+import tigImg from "@/assets/tig.png";
 import sharmanImg from "@/assets/sharman.png";
 
 const About = () => {
@@ -184,6 +185,34 @@ const About = () => {
               <img
                 src={nawazImg}
                 alt="Nawaazuddin Siddiqui"
+                className="h-56 w-56 object-cover rounded-full shadow-lg"
+              />
+            </div>
+          </div>
+        </div>
+
+        {/* About Tigmanshu Dhulia */}
+        <div className="mb-16">
+          <div className="flex flex-col md:flex-row md:items-center md:gap-12">
+            <div className="flex-1 md:w-2/3">
+              <h2 className="text-3xl font-bold text-primary mb-6">
+                Meet Guest Lecturer – Tigmanshu Dhulia
+              </h2>
+              <p className="text-foreground mb-4">
+                Tigmanshu Dhulia is an acclaimed Indian Filmmaker and actor known for his versatile
+                contribution to Hindi Cinema and TV, including as a dialogue writer, screenwriter, 
+                director, producer and a casting director. He gained international recognition for 
+                directing the biographical film Paan Singh Tomar, which won a National Film Award.
+              </p>
+              <p className="text-foreground mb-4">
+                His work is often noted for its blend of realism and gripping naratives, frequently
+                exploring themes of politics and crime.
+              </p>
+            </div>
+            <div className="flex justify-center md:w-1/3 mt-6 md:mt-0">
+              <img
+                src={tigImg}
+                alt="Tigmanshu Dhulia"
                 className="h-56 w-56 object-cover rounded-full shadow-lg"
               />
             </div>
