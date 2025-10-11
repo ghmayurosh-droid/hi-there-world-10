@@ -3,7 +3,6 @@ import { Star, Users, Award, Clock } from "lucide-react";
 import shahidImg from "@/assets/shahid.png";
 import irfanImg from "@/assets/irfan.png";
 import aneesImg from "@/assets/anees.png";
-import nawazImg from "@/assets/nawaz.png";
 import tigImg from "@/assets/tig.png";
 import sharmanImg from "@/assets/sharman.png";
 
@@ -155,36 +154,6 @@ const About = () => {
               <img
                 src={aneesImg}
                 alt="Anees Bazmee"
-                className="h-56 w-56 object-cover rounded-full shadow-lg"
-              />
-            </div>
-          </div>
-        </div>
-
-        {/* About Nawazuddin Siddiqui */}
-        <div className="mb-16">
-          <div className="flex flex-col md:flex-row md:items-center md:gap-12">
-            <div className="flex-1 md:w-2/3">
-              <h2 className="text-3xl font-bold text-primary mb-6">
-                Meet Guest Lecturer – Nawazuddin Siddiqui
-              </h2>
-              <p className="text-foreground mb-4">
-                Siddiqui is best known for his roles in *The Lunchbox* (2013),
-                which premiered at Cannes, *Manto* (2018), for which he won Best
-                Actor at the Asian Pacific Screen Awards, and *Raman Raghav
-                2.0*. Nawazuddin Siddiqui is the only Actor in the world having
-                8 films officially selected and screened at the prestigious
-                Cannes Film Festival.
-              </p>
-              <p className="text-foreground">
-                His groundbreaking performances have won him accolades globally
-                and made him one of the most respected actors of his generation.
-              </p>
-            </div>
-            <div className="flex justify-center md:w-1/3 mt-6 md:mt-0">
-              <img
-                src={nawazImg}
-                alt="Nawaazuddin Siddiqui"
                 className="h-56 w-56 object-cover rounded-full shadow-lg"
               />
             </div>
